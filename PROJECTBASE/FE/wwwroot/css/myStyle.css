@@ -1,0 +1,127 @@
+﻿.k-popup .k-list .k-item > .k-group {
+    background: #217ebd !important;
+}
+
+.k-grid tr td {
+  border-top-width: 0px !important;
+  border-bottom-width: 1px !important;
+  border-right-width: 1px !important;
+}
+
+.k-grid tr th {
+  border-right-width: 1px !important;
+}
+
+.k-treelist .k-header {
+  text-align: left !important;
+}
+
+.k-header {
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.k-grid-header th.k-header {
+  padding: 0.929em 0.6em 0.714em 0.6em !important;
+}
+
+.k-checkbox-label {
+  vertical-align: middle !important;
+}
+
+.grid-text-center {
+  text-align: center !important;
+}
+
+.k-grid-content {
+  min-height: 360px !important;
+}
+
+.table {
+  margin-bottom: 0px !important;
+}
+
+.k-grid-norecords-template {
+  border-width: 0 !important;
+}
+
+#divDataContent .container {
+  width: auto !important;
+}
+
+#reportViewer1 {
+  height: 450px;
+  font-family: "segoe ui", "ms sans serif";
+  overflow: hidden;
+  margin: 5px;
+}
+
+.text-danger {
+  color: red !important;
+  padding-left: 30px;
+}
+
+/*grid tệp đính kèm: Ẩn grid header */
+#attachment {
+  margin-bottom: 10px;
+}
+
+#attachment .k-grid .k-header {
+  display: none;
+}
+
+/*grid tệp đính kèm: Ẩn grid row line*/
+#attachment .k-grid tr td {
+  border-width: 0px;
+  border-style: none;
+}
+
+/*grid tệp đính kèm: canh trái các nút*/
+#attachment .k-grid tr td a {
+  border-width: 0px;
+  border-style: none;
+}
+
+#attachment .btnTDK {
+  padding-left: 10px;
+}
+
+/*#popupProcessReader .k-window{
+    z-index:10060 !important;
+}
+*/
+
+.row-high-light {
+  color: red !important;
+}
+
+.row-warn {
+  color: orange !important;
+}
+
+.jquery-notific8-notification {
+  height: auto;
+  max-height: 100px;
+}
+
+.k-window {
+  z-index: 100000 !important;
+}
+
+.modal-overflow .modal-body {
+  overflow-x: hidden !important;
+}
+
+.modal-body-hiday {
+    padding-bottom: 70px !important;
+}
+
+.modal-footer-hiday {
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 6px;
+    width: 100%;
+    background-color: #f8f9fa;
+}

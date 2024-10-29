@@ -1,0 +1,432 @@
+﻿
+@model int
+@{
+    var timespan = -7 * Model;
+}
+@*@{
+        List<SelectListItem> DKLoc = new List<SelectListItem>();
+        DKLoc.Add(new SelectListItem()
+        {
+            Text = "Năm",
+            Value = "1"
+        });
+        DKLoc.Add(new SelectListItem()
+        {
+            Text = "Quý",
+            Value = "2"
+        });
+        DKLoc.Add(new SelectListItem()
+        {
+            Text = "Tháng",
+            Value = "3"
+        });
+        DKLoc.Add(new SelectListItem()
+        {
+            Text = "Từ ngày - đến ngày",
+            Value = "4"
+        });
+
+
+        List<SelectListItem> DSNam = new List<SelectListItem>();
+        for (int i = 2000; i <= 2099; i++)
+        {
+            DSNam.Add(new SelectListItem()
+            {
+                Text = i.ToString(),
+                Value = i.ToString()
+            });
+        }
+
+
+        List<SelectListItem> DSQuy = new List<SelectListItem>();
+
+        DSQuy.Add(new SelectListItem()
+        {
+            Text = "I",
+            Value = "1"
+        });
+        DSQuy.Add(new SelectListItem()
+        {
+            Text = "II",
+            Value = "2"
+        });
+        DSQuy.Add(new SelectListItem()
+        {
+            Text = "III",
+            Value = "3"
+        });
+        DSQuy.Add(new SelectListItem()
+        {
+            Text = "IV",
+            Value = "4"
+        });
+
+
+        List<SelectListItem> DSThang = new List<SelectListItem>();
+        for (int i = 1; i <= 12; i++)
+        {
+            DSThang.Add(new SelectListItem()
+            {
+                Text = i.ToString(),
+                Value = i.ToString()
+            });
+        }
+    }*@
+
+
+<div class="form-horizontal" style="padding-left:5px;">
+    <div class="form-group" style="margin-bottom: 0 !important;">
+        <input class="form-control form-control-sm"  id="drlDieuKienLoc" />
+        <input class="form-control form-control-sm" id="drlQuy" style="width:100px;" />
+        <input class="form-control form-control-sm" id="drlThang" style="width:120px;" />
+        <input class="form-control form-control-sm" id="drlNam" style="width:120px;" />
+        <input class="form-control form-control-sm" id="dpTuNgay" style="width:160px;" />
+        <input class="form-control form-control-sm" id="dpDenNgay" style="width:160px;" />
+        @*<a id="btnXem" style="margin-left:10px;"><i class="fa fa-refresh" aria-hidden="true"></i> Xem</a>*@
+        <button id="btnXem" type="button" class="btn btn-success btn-sm"><i class="fas fa-search"></i> Tìm kiếm</button>
+
+        @*@(Html.Kendo().DropDownList()
+              .Name("drlDieuKienLoc")
+              .DataTextField("Text")
+              .DataValueField("Value")
+              .Events(e => e.Select("drlDieuKienLocSelect"))
+              .BindTo(DKLoc)
+            )
+
+            @(Html.Kendo().DropDownList()
+                  .Name("drlQuy")
+                  .DataTextField("Text")
+                  .DataValueField("Value")
+                  .BindTo(DSQuy)
+                  .Events(e => e.Select("drlQuySelect"))
+                  .HtmlAttributes(new { @style = "width:70px;" })
+            )
+
+            @(Html.Kendo().DropDownList()
+                  .Name("drlThang")
+                  .DataTextField("Text")
+                  .DataValueField("Value")
+                  .BindTo(DSThang)
+                  .Events(e => e.Select("drlThangSelect"))
+                  .HtmlAttributes(new { @style = "width:70px;" })
+            )
+
+            @(Html.Kendo().DropDownList()
+                  .Name("drlNam")
+                  .DataTextField("Text")
+                  .DataValueField("Value")
+                  .BindTo(DSNam)
+                  .HtmlAttributes(new { @style = "width:90px;" })
+                  .Events(e => e.Select("drlNamSelect"))
+            )
+
+            @(Html.Kendo().DatePicker()
+                  .Name("dpTuNgay").HtmlAttributes(new { @style = "width:120px;" })
+            )
+
+            @(Html.Kendo().DatePicker()
+                  .Name("dpDenNgay").HtmlAttributes(new { @style = "width:120px;" })
+            )
+
+            <button class="k-button" name="btnXem" onclick="taiLaiDuLieu()"><i class="fa fa-search" aria-hidden="true"></i> Xem</button>*@
+        @*<button class="k-button" name="btnRefresh" onclick="lamMoi()"><i class="fa fa-refresh" aria-hidden="true"></i> Làm mới</button>*@
+
+    </div>
+
+</div>
+
+
+<script>
+    var dpTuNgay; var dpDenNgay;
+    var date, year, month;
+    var chonDK;
+    $(document).ready(function () {
+
+        var DKLoc = [
+                        { Text: "Năm", Value: "1" },
+                        { Text: "Quý", Value: "2" },
+                        { Text: "Tháng", Value: "3" },
+                        { Text: "Từ ngày - đến ngày", Value: "4" }
+        ];
+
+        var DSQuy = [
+                       { Text: "I", Value: "1" },
+                       { Text: "II", Value: "2" },
+                       { Text: "III", Value: "3" },
+                       { Text: "IV", Value: "4" }
+        ];
+
+        var DSNam=[];
+        for (var i = 2010; i <= @(DateTime.Now.Year + 5); i++)
+        {
+            DSNam.push({Text:i.toString(), Value:i.toString()});
+        }
+
+        var DSThang=[];
+        for (var i = 1; i <= 12; i++)
+        {
+            DSThang.push({Text:i.toString(), Value:i.toString()});
+        }
+
+
+        $("#btnXem").click(function () {
+            taiLaiDuLieu();
+        });
+
+        $("#drlDieuKienLoc").kendoDropDownList({
+            dataTextField: "Text",
+            dataValueField: "Value",
+            dataSource: DKLoc,
+            index: 0,
+            select: drlDieuKienLocSelect
+        });
+
+        $("#drlQuy").kendoDropDownList({
+            dataTextField: "Text",
+            dataValueField: "Value",
+            dataSource: DSQuy,
+            index: 0,
+            select: drlQuySelect
+        });
+
+        $("#drlThang").kendoDropDownList({
+            dataTextField: "Text",
+            dataValueField: "Value",
+            dataSource: DSThang,
+            index: 0,
+            select: drlThangSelect
+        });
+
+        $("#drlNam").kendoDropDownList({
+            dataTextField: "Text",
+            dataValueField: "Value",
+            dataSource: DSNam,
+            index: 0,
+            select: drlNamSelect
+        });
+
+        $("#dpTuNgay").kendoDatePicker({
+            format: "dd/MM/yyyy"
+        });
+
+        $("#dpDenNgay").kendoDatePicker({
+            format: "dd/MM/yyyy"
+        });
+
+        $("#drlNam").closest(".k-widget").hide();
+        $("#drlQuy").closest(".k-widget").hide();
+        $("#drlThang").closest(".k-widget").hide();
+
+        date = new Date(), year = date.getFullYear(), month = date.getMonth();//12 tháng đi từ 0-11
+        //var firstDay = new Date(year, 0, 1);
+        //var lastDay = new Date(year, 12, 0);
+        var firstDay = new Date( @DateTime.Now.AddDays(timespan).Year, @DateTime.Now.AddDays(timespan).Month -1, @DateTime.Now.AddDays(timespan).Day);
+        var lastDay =   new Date( @DateTime.Now.Year,  @DateTime.Now.Month -1,  @DateTime.Now.Day);
+        //var firstDay = new Date( @DateTime.Now.Year,  @DateTime.Now.Month -1,  @DateTime.Now.Day);
+        //var lastDay =   new Date( @DateTime.Now.AddDays(timespan).Year, @DateTime.Now.AddDays(timespan).Month -1, @DateTime.Now.AddDays(timespan).Day);
+        dpTuNgay = $("#dpTuNgay").data("kendoDatePicker");
+        dpDenNgay = $("#dpDenNgay").data("kendoDatePicker");
+
+        //default load từ ngày - đến ngày năm hiện tại
+        $("#drlDieuKienLoc").data("kendoDropDownList").value(4);
+        dpTuNgay.value(firstDay);
+        dpDenNgay.value(lastDay);
+
+    });
+
+    function drlDieuKienLocSelect(e)
+    {
+
+        var dataItem = this.dataItem(e.item);
+        if(dataItem.Value =="1") //năm
+        {
+            $("#drlNam").closest(".k-widget").show();
+            $("#drlQuy").closest(".k-widget").hide();
+            $("#drlThang").closest(".k-widget").hide();
+            dpTuNgay.enable(false);
+            dpDenNgay.enable(false);
+
+            //set năm hiện tại
+            $("#drlNam").data("kendoDropDownList").value(year);
+
+            //set từ ngày- đến ngày
+            var firstDay = new Date(year, 0, 1);
+            var lastDay = new Date(year, 12, 0);
+            dpTuNgay.value(firstDay);
+            dpDenNgay.value(lastDay);
+
+        }
+        else if (dataItem.Value == "2") //quý
+        {
+            $("#drlQuy").closest(".k-widget").show();
+            $("#drlNam").closest(".k-widget").show();
+            $("#drlThang").closest(".k-widget").hide();
+            dpTuNgay.enable(false);
+            dpDenNgay.enable(false);
+
+            setQuy(month,year);
+
+        }
+        else if(dataItem.Value == "3")//tháng
+        {
+            $("#drlQuy").closest(".k-widget").hide();
+            $("#drlNam").closest(".k-widget").show();
+            $("#drlThang").closest(".k-widget").show();
+            dpTuNgay.enable(false);
+            dpDenNgay.enable(false);
+
+            setThang(month,year);
+        }
+        else if (dataItem.Value = '4') //từ ngày - đến ngày : enable cho chọn
+        {
+            $("#drlNam").closest(".k-widget").hide();
+            $("#drlQuy").closest(".k-widget").hide();
+            $("#drlThang").closest(".k-widget").hide();
+            dpTuNgay.enable();
+            dpDenNgay.enable();
+
+            //set từ ngày- đến ngày
+            //var firstDay = new Date(year, 0, 1);
+            //var lastDay = new Date(year, 12, 0);
+            var firstDay = new Date( @DateTime.Now.AddDays(timespan).Year, @DateTime.Now.AddDays(timespan).Month -1, @DateTime.Now.AddDays(timespan).Day);
+            var lastDay =   new Date( @DateTime.Now.Year,  @DateTime.Now.Month -1,  @DateTime.Now.Day);
+            dpTuNgay.value(firstDay);
+            dpDenNgay.value(lastDay);
+        }
+
+    }
+
+    function hiddenThang() {
+        $("#drlThang").closest(".k-widget").hide();
+        dpTuNgay.enable(false);
+        dpDenNgay.enable(false);
+    }
+
+    function drlQuySelect(e)
+    {
+        chonDK = "quy";
+        var firstDay, lastDay;
+        var dataItem = this.dataItem(e.item);
+        var year = $("#drlNam").data("kendoDropDownList").value();
+        var quy = dataItem.Value;
+        if(quy=='1')
+        {
+            firstDay = new Date(year, 0, 1);
+            lastDay = new Date(year, 3, 0);
+        }
+        else if (quy == '2')
+        {
+            firstDay = new Date(year, 3, 1);
+            lastDay = new Date(year, 6, 0);
+        }
+        else if (quy == '3') {
+            firstDay = new Date(year, 6, 1);
+            lastDay = new Date(year, 9, 0);
+        }
+        else {
+            firstDay = new Date(year, 9, 1);
+            lastDay = new Date(year, 12, 0);
+        }
+
+        dpTuNgay.value(firstDay);
+        dpDenNgay.value(lastDay);
+    }
+
+    function drlThangSelect(e) {
+        chonDK = "thang";
+        var dataItem = this.dataItem(e.item);
+        var year = $("#drlNam").data("kendoDropDownList").value();
+        setThang(parseInt(dataItem.Value)-1,year);
+    }
+
+    function drlNamSelect(e) {
+        var dataItem = this.dataItem(e.item);
+        var year = parseInt(dataItem.Value);
+
+        //set từ ngày- đến ngày
+        var firstDay = new Date(year, 0, 1);
+        var lastDay = new Date(year, 12, 0);
+        dpTuNgay.value(firstDay);
+        dpDenNgay.value(lastDay);
+
+        if (chonDK == "thang") {
+            var thang = $("#drlThang").data("kendoDropDownList").value();
+            setThang(thang - 1, year);
+        }
+        if (chonDK == "quy") {
+            var quy = $("#drlQuy").data("kendoDropDownList").value();
+
+            if (quy == '1') {
+                firstDay = new Date(year, 0, 1);
+                lastDay = new Date(year, 3, 0);
+            }
+            else if (quy == '2') {
+                firstDay = new Date(year, 3, 1);
+                lastDay = new Date(year, 6, 0);
+            }
+            else if (quy == '3') {
+                firstDay = new Date(year, 6, 1);
+                lastDay = new Date(year, 9, 0);
+            }
+            else {
+                firstDay = new Date(year, 9, 1);
+                lastDay = new Date(year, 12, 0);
+            }
+
+            dpTuNgay.value(firstDay);
+            dpDenNgay.value(lastDay);
+        }
+
+    }
+
+    function setQuy(thang,year)
+    {
+        var firstDay, lastDay;
+
+        //set quý hiện tại
+        var m = thang + 1;
+        var quy = "";
+        if (m >= 1 && m <= 3) {
+            quy = "1";
+            firstDay = new Date(year, 0, 1);
+            lastDay = new Date(year, 3, 0);
+        }
+        if (m >= 4 && m <= 6) {
+            quy = "2";
+            firstDay = new Date(year, 3, 1);
+            lastDay = new Date(year, 6, 0);
+        }
+        if (m >= 7 && m <= 9) {
+            quy = "3";
+            firstDay = new Date(year, 6, 1);
+            lastDay = new Date(year, 9, 0);
+        }
+        if (m >= 10 && m <= 12) {
+            quy = "4";
+            firstDay = new Date(year, 9, 1);
+            lastDay = new Date(year, 12, 0);
+        }
+
+        $("#drlQuy").data("kendoDropDownList").value(quy);
+        //set năm hiện tại
+        $("#drlNam").data("kendoDropDownList").value(year);
+        //set từ ngày- đến ngày
+        dpTuNgay.value(firstDay);
+        dpDenNgay.value(lastDay);
+    }
+
+    function setThang(thang,year)
+    {
+        //set tháng hiện tại
+        $("#drlThang").data("kendoDropDownList").value(thang + 1);
+        //set năm hiện tại
+        $("#drlNam").data("kendoDropDownList").value(year);
+        //set từ ngày- đến ngày
+        var firstDay = new Date(year, thang, 1);
+        var lastDay = new Date(year, thang + 1, 0);
+        dpTuNgay.value(firstDay);
+        dpDenNgay.value(lastDay);
+    }
+
+
+</script>

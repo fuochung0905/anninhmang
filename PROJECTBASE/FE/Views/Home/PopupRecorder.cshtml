@@ -1,0 +1,79 @@
+﻿@model MODELS.BASE.MODELRecorder
+
+<script src="~/js/recorder.js?v=1"></script>
+
+<div class="modal-content" id="modalLoading">
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "frmBai" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="modal-header">
+            <h4 class="modal-title">Tệp ghi âm</h4>
+            <button type="button" class="close" onclick="closePopup();">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p><audio id="audio" controls="controls" style="width: 100%">
+                <source id="audioSource" src="@ViewBag.Domain/@Model.URL"></source>
+            </audio></p>
+        </div>
+        @if (Model.IsRecode)
+        {
+            <div class="modal-footer">
+                <button id="recordButton" type="button" class="mr-2 btn-hover-shine btn btn-primary" onclick="startRecording()"><i class="fa fa-play" aria-hidden="true"></i>&nbsp; Ghi âm </button>
+                <button id="stopButton" type="button" class="mr-2 btn-hover-shine btn btn-primary" onclick="stopRecording()"><i class="fa fa-stop" aria-hidden="true"></i>&nbsp; Dừng </button>
+                <button id="removeRecordButton" type="button" class="mr-2 btn-hover-shine btn btn-danger" onclick="removeRecord()"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp; Xóa </button>
+            </div>
+        }
+    }
+</div>
+
+<script>
+    fileName = '@Model.CauHoiId' + '.mp3';
+    folderName = '@Model.ThiId';
+
+    var source = document.getElementById('audioSource');
+    var audio = document.getElementById("audio");
+
+    function startRecording() {
+        $("#recordButton").attr("disabled", true);
+        $("#stopButton").removeAttr("disabled");
+        startRecord(callBack);
+    }
+
+    function callBack(url) {
+        //GỌI HÀM XỬ LÝ SAU KHI LƯU FILE GHI ÂM THÀNH CÔNG
+        source.src = '@ViewBag.Domain' + '/' + url + '?v=' + Math.floor(Math.random() * 100);
+        audio.load();
+        recordCallBack('@Model.CauHoiId', url);
+    }
+
+    function stopRecording() {
+        $("#stopButton").attr("disabled", true);
+        $("#recordButton").removeAttr("disabled");
+        stopRecord();
+    }
+
+    function closePopup() {
+        $('#modal-default').modal('hide');
+    }
+
+    // function listenRecord(id) {
+    //     var thiId = $("#Id").val();
+    //     var url = '@Url.Action("ShowPopupRecoder", "Home")?ThiId=' + thiId + '&CauHoiId=' + id + '&URL=' + url + '&IsRecode=false';
+
+    //     $.get(url, function (data) {
+    //         $('#modelContainer').html(data);
+    //         $('#modal-default').modal('show');
+    //     });
+    // }
+
+    function removeRecord() {
+        if (confirm('Bạn có muốn xóa bản ghi này không?')) {
+            source.src = '';
+            audio.load();
+            recordCallBack('@Model.CauHoiId', '');
+        }
+    }
+</script>

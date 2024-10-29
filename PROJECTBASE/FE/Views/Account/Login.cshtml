@@ -1,0 +1,225 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TRƯỜNG ĐẠI HỌC GIAO THÔNG VÂN TẢI PHÂN HIỆU THÀNH PHỐ HỒ CHÍ MINH | Đăng nhập</title>
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico?v=2">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Ðang nh?p" name="description" />
+    <meta content="" name="author" />
+    <link href="~/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/layouts/layout/css/layout.min.css" rel="stylesheet" />
+    <link href="~/assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" />
+    <link href="~/assets/layouts/layout/css/custom.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/assets/content/css/horizontal-layout-light/style.css">
+    <link rel="stylesheet" href="~/assets/content/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/assets/content/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/assets/content/css/horizontal-layout-light/vendor.bundle.base.css">
+    <link href="~/assets/pages/css/profile-2.min.css" rel="stylesheet" />
+    <link href="~/assets/pages/css/profile.min.css" rel="stylesheet" />
+    <link href="~/assets/global/plugins/jquery-notific8/jquery.notific8.min.css" rel="stylesheet" />
+    <link href="~/assets/global/plugins/bootstrap-sweetalert/sweetalert.css" rel="stylesheet" />
+    <script src="~/js/kendo.modernizr.custom.js"></script>
+    <link href="~/css/myStyle.css" rel="stylesheet" />
+
+    <script src="~/assets/global/plugins/jquery.min.js"></script>
+    <script src="~/Assets/global/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/js/myscript.js"></script>
+    <link href="~/assets/pages/css/login-4.min.css?v=1" rel="stylesheet" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/login.css" rel="stylesheet" />
+</head>
+
+
+
+<body class="bg-login">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 justify-content-center  centered">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4 login-header">
+                        <img src="~/assets/content/images/logoutc21.png" class="login-header-img" />
+                    </div>
+                   
+                </div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-4 login-form">
+                        @model MODELS.HETHONG.TAIKHOAN.Requests.LoginRequest
+                         @using(Html.BeginForm("Login", "Account", FormMethod.Post, new { id = "frmLogin" }))
+        {
+            <div class="boc-het">
+                            @Html.AntiForgeryToken()
+
+                            <div class="login-group-boc-lai">
+                            </div>
+                            <div class="login-group">
+                                <div class="form-group header">
+                                    <h5 class="form-group-header">ĐĂNG NHẬP TÀI KHOẢN</h5>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="font-weight-bold">Tên đăng nhập</label>
+
+
+                                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Tên đăng nhập" asp-for="UserName" />
+                                    <span class="text-danger" asp-validation-for="UserName"></span>
+
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="font-weight-bold">Mật khẩu truy cập</label>
+
+
+                                    <input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Mật khẩu" asp-for="Password" />
+                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                                </div>
+                                <div class="form-group">
+
+                                    <div style="display: flex; justify-content: space-between; align-items: center; margin: 15px 0;">
+
+                                        <label class="container-checkBox">
+                                            <b>Ghi nhớ tôi</b>
+                                            <input type="checkbox" name="remember" id="cbRemember" value="1">
+                                            <span class="checkmark"></span>
+                                        </label>
+
+                                        <div style="display: flex;  align-items: center;  cursor:pointer">
+                                            <b>Quên mật khẩu</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="text-center">
+                                            <button type="button" class="btn btn-primary btn-mau-login" id="btnOK" onclick="logIn()"> Ðăng nhập </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="~/assets/global/scripts/app.min.js"></script>
+    <script src="~/assets/layouts/global/scripts/quick-sidebar.min.js"></script>
+    <script src="~/assets/layouts/global/scripts/quick-nav.min.js"></script>
+    <script src="~/assets/content/js/off-canvas.js"></script>
+    <script src="~/assets/content/js/hoverable-collapse.js"></script>
+    <script src="~/assets/content/js/settings.js"></script>
+    <script src="~/assets/content/js/todolist.js"></script>
+    <script src="~/assets/layouts/layout/scripts/layout.js"></script>
+    <script src="~/assets/layouts/layout/scripts/demo.min.js"></script>
+    <script src="~/assets/pages/scripts/login-4.js"></script>
+    <script src="~/Assets/global/plugins/jquery-notific8/jquery.notific8.min.js"></script>
+    <script src="~/assets/global/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+    <script src="~/assets/global/plugins/jquery-validation/js/additional-methods.min.js"></script>
+
+    <script>
+        function showSuccessNotify(message) {
+            var settings = {
+                theme: 'lime',
+                sticky: false,
+                horizontalEdge: 'bottom',
+                verticalEdge: 'right',
+                heading: 'Thông báo',
+                life: '5000'
+            },
+                $button = $(this);
+            $.notific8('zindex', 11500);
+            $.notific8($.trim(message), settings);
+            $button.attr('disabled', 'disabled');
+            setTimeout(function () {
+                $button.removeAttr('disabled');
+            }, 1000);
+        }
+
+        function showErrorNotify(message) {
+            var settings = {
+                theme: 'ruby',
+                sticky: false,
+                horizontalEdge: 'bottom',
+                verticalEdge: 'right',
+                heading: 'Lỗi',
+                life: '5000'
+            },
+                $button = $(this);
+            $.notific8('zindex', 11500);
+            $.notific8($.trim(message), settings);
+            $button.attr('disabled', 'disabled');
+            setTimeout(function () {
+                $button.removeAttr('disabled');
+            }, 1000);
+        }
+
+        function showLoading(value) {
+            if (value) {
+                App.blockUI({ message: 'Đang xử lý...' });
+            }
+            else {
+                App.unblockUI();
+            }
+        }
+
+        $(function () {
+            console.log('@ViewBag.Code');
+            $("#UserName").focus();
+
+            $("input").on("keypress", function (e) {
+                if (e.keyCode == 13) {
+                    logIn();
+                }
+            });
+        });
+
+        function logIn() {
+            var UserName = $("#UserName").val();
+            var Password = $("#Password").val();
+            if (UserName == "") {
+                $("#UserName").focus();
+                showErrorNotify("Vui lòng nhập tên đăng nhập");
+                return;
+            } else if (Password == "") {
+                $("#Password").focus();
+                showErrorNotify("Vui lòng nhập mật khẩu đăng nhập");
+                return;
+            } else {
+                startLogIn(UserName, Password);
+            }
+        }
+
+        function startLogIn(UserName, Password) {
+            var model = {
+                UserName: UserName,
+                Password: Password
+            }
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Login", "Account")',
+                data: model,
+                success: function (result) {
+                    if (result.IsSuccess) {
+                        window.location.href = "/Home/Index";
+                    } else {
+                        showErrorNotify(result.Message);
+                    }
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    showErrorNotify(errorThrown);
+                }
+            });
+        }
+    </script>
+</body>
+    
+   
+
+</html>

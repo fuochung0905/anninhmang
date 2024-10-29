@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="EFCore.BulkExtensions" Version="8.0.4" />
+    <PackageReference Include="Stax.AutoDependencyInjectionRegistration" Version="3.1.1" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ENTITIES\ENTITIES.csproj" />
+    <ProjectReference Include="..\MODELS\MODELS.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DATABASECONNECT">
+      <HintPath>..\..\Libs\DATABASECONNECT.dll</HintPath>
+    </Reference>
+    <Reference Include="ENCRYPT">
+      <HintPath>..\..\Libs\ENCRYPT.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

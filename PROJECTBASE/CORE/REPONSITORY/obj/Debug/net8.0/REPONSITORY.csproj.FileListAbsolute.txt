@@ -1,0 +1,60 @@
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.deps.json
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\DATABASECONNECT.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENCRYPT.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENTITIES.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\MODELS.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENTITIES.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\MODELS.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.csproj.AssemblyReference.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.GeneratedMSBuildEditorConfig.editorconfig
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.AssemblyInfoInputs.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.AssemblyInfo.cs
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.csproj.CoreCompileInputs.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.sourcelink.json
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSIT.F78C644C.Up2Date
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\refint\REPONSITORY.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\ref\REPONSITORY.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.deps.json
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\DATABASECONNECT.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENCRYPT.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENTITIES.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\MODELS.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENTITIES.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\MODELS.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.csproj.AssemblyReference.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.GeneratedMSBuildEditorConfig.editorconfig
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.AssemblyInfoInputs.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.AssemblyInfo.cs
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.csproj.CoreCompileInputs.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.sourcelink.json
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSIT.F78C644C.Up2Date
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\refint\REPONSITORY.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\ref\REPONSITORY.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.deps.json
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\REPONSITORY.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\DATABASECONNECT.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENCRYPT.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENTITIES.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\MODELS.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\ENTITIES.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\bin\Debug\net8.0\MODELS.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.csproj.AssemblyReference.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.AssemblyInfoInputs.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.AssemblyInfo.cs
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.sourcelink.json
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSIT.F78C644C.Up2Date
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\refint\REPONSITORY.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\REPONSITORY.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\REPONSITORY\obj\Debug\net8.0\ref\REPONSITORY.dll

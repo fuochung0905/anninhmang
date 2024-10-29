@@ -1,0 +1,131 @@
+﻿@* @model List<MODELS.BASE.MODELTepDinhKem>; *@
+@* <style> *@
+@*     /*grid tệp đính kèm: Ẩn grid header */ *@
+@*     #attachment { *@
+@*         margin-bottom: 10px; *@
+@*     } *@
+
+@*     #attachment .k-grid .k-header { *@
+@*         display: none; *@
+@*     } *@
+
+@*     /*grid tệp đính kèm: Ẩn grid row line*/ *@
+@*     #attachment .k-grid tr td { *@
+@*         border-width: 0px; *@
+@*         border-style: none; *@
+@*     } *@
+
+@*     /*grid tệp đính kèm: canh trái các nút*/ *@
+@*     #attachment .k-grid tr td a { *@
+@*         border-width: 0px; *@
+@*         border-style: none; *@
+@*     } *@
+
+@*     #attachment .btnTDK { *@
+@*         padding-left: 10px; *@
+@*     } *@
+
+@*     .k-window-action { *@
+@*         width: 50px !important; *@
+@*     } *@
+
+@*     /*#divUpload .k-button *@
+@*     { *@
+@*         border-radius: 0 !important; *@
+@*         border-color: #bfbfbf !important; *@
+@*         color: #333 !important; *@
+@*         background-color: #f7f7f7 !important; *@
+@*         background-position: 50% 50% !important; *@
+@*     } *@
+
+@*     #divUpload .k-button:hover *@
+@*     { *@
+@*         text-decoration: none !important; *@
+@*         outline: 0 !important; *@
+@*     }*/ *@
+@* </style> *@
+@* <script> *@
+@*     function uploadFileInGrid(folderName) { *@
+@*         //UPLOAD FILE *@
+@*         var upload = $("#UploadFileInGrid").data("kendoUpload"); *@
+@*         var files = upload.getFiles(); *@
+
+@*         if (files.length > 0) { *@
+@*             if (window.FormData !== undefined) { *@
+@*                 var data = new FormData(); *@
+@*                 data.append("FolderName", folderName); *@
+@*                 if (files.length > 0) { *@
+@*                     for (var x = 0; x < files.length; x++) { *@
+@*                         data.append("file", files[x].rawFile); *@
+@*                     } *@
+@*                 } *@
+
+@*                 return $.ajax({ *@
+@*                     type: "POST", *@
+@*                     url: '@Url.Action("UploadFile", "Home")', *@
+@*                     contentType: false, *@
+@*                     processData: false, *@
+@*                     data: data, *@
+@*                     success: function (data) { *@
+@*                         return; *@
+@*                     } *@
+@*                 }); *@
+@*             } else { *@
+@*                 showErrorNotify("Vui lòng cập nhật trình duyệt web của bạn!"); *@
+@*             } *@
+@*         } *@
+@*     } *@
+
+@*     function xoaTepDinhKemUploadFile(element) { *@
+@*         grid = $("#GridUploadFileInGrid").data("kendoGrid"); *@
+@*         grid.removeRow($(element).closest("tr")); *@
+@*     } *@
+
+@*     function getTepDinhKemUploadFile() { *@
+@*         var arrIDs = new Array(); *@
+@*         var grid = $('#GridUploadFileInGrid').data(); *@
+@*         if (grid != undefined) { *@
+@*             var gridData = grid.kendoGrid; *@
+@*             $.each(gridData.dataSource.view(), function () { *@
+@*                 arrIDs.push(this['Id']); *@
+@*             }); *@
+@*         } *@
+@*         return JSON.stringify(arrIDs); *@
+@*     } *@
+@* </script> *@
+
+@* @if(Model != null && Model.Count > 0) *@
+@* { *@
+@*     <div id="attachment"> *@
+@*         @(Html.Kendo().Grid(Model) *@
+@*             .Name("GridUploadFileInGrid") *@
+@*             .HtmlAttributes(new { @class = "table table-hover table-striped", style ="border-top:0px;cursor:pointer; border:1px #ccc solid;"}) *@
+@*             .Columns(columns => *@
+@*             { *@
+@*                 columns.Bound(o => o.Url).Title("").Filterable(false).ClientTemplate( *@
+@*                 "<a title='Tải tệp đính kèm' onclick='taiTepDinhKemPopup(\"#= encodeURI(Url) #\", \"#= TenTapTinFull #\")'>#=TenTapTinFull#</a>"); *@
+@*                 columns.Bound(o => o.Url).Title("").Filterable(false).ClientTemplate( *@
+@*                 "<a class='btnTDK' title='Xem tệp đính kèm' onclick='xemTepDinhKemPopup(\"#= encodeURI(Url) #\", \"#= TenTapTinFull #\", \"#= TenMoRong #\")'><i style='font-size:16px;' class='fa fa-search' aria-hidden='true'></i></a>" + *@
+@*                 "<a class='btnTDK' title='Tải tệp đính kèm' onclick='taiTepDinhKemPopup(\"#= encodeURI(Url) #\", \"#= TenTapTinFull #\")'><i style='font-size:16px;' class='fa fa-download' aria-hidden='true'></i></a>" + *@
+@*                 "<a class='btnTDK' title='Xóa tệp đính kèm' onclick='xoaTepDinhKemUploadFile(this)' style='color:darkslategrey!important;'><i style='font-size:16px;' class='fal fa-trash-alt' aria-hidden='true'></i></a>").Width(140); *@
+@*             }) *@
+@*             .DataSource(dataSource => dataSource *@
+@*                 .Ajax() *@
+@*                 .ServerOperation(false) *@
+@*             )) *@
+@*     </div> *@
+@* } *@
+
+@* <div id="divUpload"> *@
+@*      @(Html.Kendo().Upload().Name("UploadFileInGrid") *@
+@*     .HtmlAttributes(new { style = "width: 100%;  max-width:none;" }) *@
+@*     .Multiple(true) *@
+@*     .Messages(m => m.Select("Chọn tệp tin...")) *@
+@*     .Messages(m => m.InvalidFileExtension("Tệp không đúng định dạng")) *@
+@*     .Messages(m => m.InvalidMaxFileSize("Tệp vượt quá kích thước quy định")) *@
+@*     .Messages(m => m.StatusFailed("Đã xảy ra lỗi khi tải lên")) *@
+@*     .Messages(m => m.StatusUploaded("Hoàn thành")) *@
+@*     .Messages(m => m.StatusUploading("Đang tải lên")) *@
+@*     .Messages(m => m.HeaderStatusUploaded("Hoàn thành")) *@
+@*     .Messages(m => m.HeaderStatusUploading("Đang tải lên"))) *@
+@* </div> *@

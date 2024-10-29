@@ -1,0 +1,102 @@
+﻿@* <script> *@
+@*     function cbxTinhFilter_Change(){ *@
+@*         var ddlQuanHuyen = $("#HuyenId").data("kendoDropDownList"); *@
+@*         ddlQuanHuyen.dataSource.read(); *@
+@*         ddlQuanHuyen.selectedIndex = -1; *@
+
+@*         var ddlXa = $("#XaId").data("kendoDropDownList"); *@
+@*         ddlXa.dataSource.read(); *@
+@*         ddlXa.selectedIndex = -1; *@
+@*     } *@
+
+@*     function HuyenId_Change(){ *@
+@*         var ddlXa = $("#XaId").data("kendoDropDownList"); *@
+@*         ddlXa.dataSource.read(); *@
+@*         ddlXa.selectedIndex = -1; *@
+@*     } *@
+
+@*     function HuyenId_GetData(){ *@
+@*         return { *@
+@*             tinhId: $("#cbxTinhFilter").data("kendoDropDownList").value() *@
+@*         } *@
+@*     } *@
+
+@*     function XaId_GetData(){ *@
+@*         return { *@
+@*             huyenId: $("#HuyenId").data("kendoDropDownList").value() *@
+@*         } *@
+@*     } *@
+
+@*     function cbxFilterDiaDanh_GetData() { *@
+@*         return { *@
+@*             huyenId: $("#HuyenId").data("kendoDropDownList").value(), *@
+@*             xaId: $("#XaId").data("kendoDropDownList").value() *@
+@*         } *@
+@*     } *@
+@* </script> *@
+@* <div class="form-horizontal"> *@
+@*     @*<div class="form-group form-group-hiday row"> *@
+@*         <label class="col-sm-3 col-form-label my-0-hiday"> *@
+@*             Tỉnh: *@
+@*         </label> *@
+@*         <div class="col-sm-9"> *@
+@*             @(Html.Kendo().DropDownList().Name("cbxTinhFilter") *@
+@*                 .DataTextField("Text") *@
+@*                 .DataValueField("Value") *@
+@*                 .HtmlAttributes(new { style = "width: 100%;  max-width:none;" }) *@
+@*                 .OptionLabel("Chọn tỉnh") *@
+@*                 .Filter(FilterType.Contains) *@
+@*                 .DataSource(source => { *@
+@*                     source.Read(read => *@
+@*                     { *@
+@*                         read.Action("Combobox_Tinh", "DungChung"); *@
+@*                     }) *@
+@*                     .ServerFiltering(false); *@
+@*                 }) *@
+@*                 .Events(e => e.Change("cbxTinhFilter_Change")) *@
+@*             ) *@
+@*         </div> *@
+@*     </div>*@ 
+@*     <div class="form-group form-group-hiday row"> *@
+@*         <label class="col-sm-2 col-form-label my-0-hiday"> *@
+@*             Huyện/ Thành phố: *@
+@*         </label> *@
+@*         <div class="col-sm-4"> *@
+@*             @(Html.Kendo().DropDownList().Name("HuyenId") *@
+@*                         .DataTextField("Text") *@
+@*                         .DataValueField("Value") *@
+@*                         .HtmlAttributes(new { style = "width: 100%;  max-width:none;" }) *@
+@*                         .OptionLabel("Chọn quận huyện") *@
+@*                         .Filter(FilterType.Contains) *@
+@*                         .DataSource(source => { *@
+@*                             source.Read(read => *@
+@*                             { *@
+@*                                 read.Action("Combobox_Huyen", "DungChung"); *@
+@*                             }) *@
+@*                             .ServerFiltering(false); *@
+@*                         }) *@
+@*                         .Events(e => e.Change("HuyenId_Change")) *@
+@*                     ) *@
+@*         </div> *@
+
+@*         <label class="col-sm-2 col-form-label my-0-hiday"> *@
+@*             Xã/ Phường/ Thị trấn: *@
+@*         </label> *@
+@*         <div class="col-sm-4"> *@
+@*             @(Html.Kendo().DropDownList().Name("XaId") *@
+@*                         .DataTextField("Text") *@
+@*                         .DataValueField("Value") *@
+@*                         .OptionLabel("Chọn phường xã") *@
+@*                         .HtmlAttributes(new { style = "width: 100%;  max-width:none;" }) *@
+@*                         .Filter(FilterType.Contains) *@
+@*                         .DataSource(source => { *@
+@*                             source.Read(read => *@
+@*                             { *@
+@*                                 read.Action("Combobox_Xa", "DungChung").Data("XaId_GetData"); *@
+@*                             }) *@
+@*                             .ServerFiltering(false); *@
+@*                         }) *@
+@*                     ) *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@

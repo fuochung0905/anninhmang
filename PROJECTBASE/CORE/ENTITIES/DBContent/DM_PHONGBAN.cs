@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace ENTITIES.DBContent;
+
+public partial class DM_PHONGBAN
+{
+    public Guid Id { get; set; }
+
+    public Guid DonViId { get; set; }
+
+    public string? Ma { get; set; }
+
+    public string TenGoi { get; set; } = null!;
+
+    public DateTime? NgayTao { get; set; }
+
+    public string NguoiTao { get; set; } = null!;
+
+    public DateTime? NgaySua { get; set; }
+
+    public string? NguoiSua { get; set; }
+
+    public DateTime? NgayXoa { get; set; }
+
+    public string? NguoiXoa { get; set; }
+
+    public bool IsActived { get; set; }
+
+    public bool IsDeleted { get; set; }
+}

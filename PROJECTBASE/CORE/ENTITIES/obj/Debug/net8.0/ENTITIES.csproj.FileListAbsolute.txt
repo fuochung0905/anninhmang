@@ -1,0 +1,45 @@
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.deps.json
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.runtimeconfig.json
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.csproj.AssemblyReference.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.GeneratedMSBuildEditorConfig.editorconfig
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.AssemblyInfoInputs.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.AssemblyInfo.cs
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.csproj.CoreCompileInputs.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.sourcelink.json
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\refint\ENTITIES.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.genruntimeconfig.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ref\ENTITIES.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.deps.json
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.runtimeconfig.json
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.csproj.AssemblyReference.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.GeneratedMSBuildEditorConfig.editorconfig
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.AssemblyInfoInputs.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.AssemblyInfo.cs
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.csproj.CoreCompileInputs.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.sourcelink.json
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\refint\ENTITIES.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.genruntimeconfig.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ref\ENTITIES.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.deps.json
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.runtimeconfig.json
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\bin\Debug\net8.0\ENTITIES.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.csproj.AssemblyReference.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.AssemblyInfoInputs.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.AssemblyInfo.cs
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.sourcelink.json
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\refint\ENTITIES.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ENTITIES.genruntimeconfig.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\ENTITIES\obj\Debug\net8.0\ref\ENTITIES.dll

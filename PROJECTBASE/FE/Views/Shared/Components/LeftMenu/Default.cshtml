@@ -1,0 +1,83 @@
+﻿<!-- BEGIN SIDEBAR -->
+<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+<!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+<div class="container">
+    <!-- BEGIN SIDEBAR MENU -->
+    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+    <ul id="ulMenu" class="nav page-navigation" style="justify-content:center !important;">
+        <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+        <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+       @* <li class="nav-item active" id="mnHome">
+            <a href="#" onclick='redirectToPage("Index", "Home", "Home")' class="nav-link">
+                <i class="fas fa-home menu-icon"></i>
+                <span class="menu-title">TRANG CHỦ</span>
+                <span class="selected" style="display:none;" id="spHome"></span>
+            </a>
+        </li>*@
+        @{
+            var menuList = ViewBag.MENUITEM as List<MODELS.HETHONG.TAIKHOAN.Dtos.MODELMenuLogin>;
+            var headerList = ViewBag.MENUHEADER as List<MODELS.HETHONG.TAIKHOAN.Dtos.MODELNhomQuyenLogin>;
+
+            foreach (var header in headerList)
+            {
+                if (menuList.Where(x => x.NhomQuyenId == header.Id).Count() > 0)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            @Html.Raw(header.Icon)
+                            <span class="menu-title">@header.TenGoi.ToUpper()</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="submenu" style="max-height: 500px; overflow: hidden; overflow-y: scroll">
+                            <ul class="submenu-item">
+                                @foreach (var menu in menuList.Where(x => x.NhomQuyenId == header.Id).OrderBy(x => x.Sort))
+                                {
+                                    <li class="nav-item  " id="mn@(menu.Action)_@(menu.Controller)">
+                                        <a href="#" onclick='redirectToPage("@(menu.Action)", "@(menu.Controller)", "@(menu.Action)_@(menu.Controller)")' class="nav-link">
+                                            @(menu.TenGoi)
+                                            <span class="selected" style="display:none;" id="sp@(menu.Action)_@(menu.Controller)"></span>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </li>
+                }
+
+            }
+        }
+        @if (User.Identity.Name == "admin")
+        {
+            <li class="nav-item ">
+                <a class="nav-link">
+                    <i class="fas fa-file-download menu-icon"></i>
+                    <span class="menu-title">ADMINISTRATOR</span>
+                    <i class="menu-arrow"></i>
+                </a>
+                <div class="submenu">
+                    <ul class="submenu-item">
+                        <li class="nav-item  " id="mnindex_menu">
+                            <a href="#" onclick='redirectToPage("index", "menu", "index_menu")' class=" nav-link">
+                                Menu
+                                <span class="selected" style="display:none;" id="spindex_menu"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item  " id="mnindex_nhomquyen">
+                            <a href="#" onclick='redirectToPage("index", "nhomquyen", "index_nhomquyen")' class="nav-link">
+                                Nhóm quyền
+                                <span class="selected" style="display:none;" id="spindex_nhomquyen"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        }
+    </ul>
+    <!-- END SIDEBAR MENU -->
+</div>
+<!-- END SIDEBAR -->

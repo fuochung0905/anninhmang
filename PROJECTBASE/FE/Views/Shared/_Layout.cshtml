@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI PHÂN HIỆU THÀNH PHỐ HỒ CHÍ MINH</title>
+    <script src="~/lib/kendo/js/jquery.min.js" type="text/javascript"></script>
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico?v=2">
+    <link rel="stylesheet" href="~/assets/content/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/assets/content/vendors/c3/c3.min.css">
+    <link rel="stylesheet" href="~/assets/content/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/assets/content/css/horizontal-layout-light/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/assets/content/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/content/js/select.dataTables.min.css">
+    <link rel="stylesheet" href="~/assets/content/vendors/mdi/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="~/assets/content/css/horizontal-layout-light/style.css?v=2">
+    <link href="~/lib/kendo/css/kendo.common-fiori.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/lib/kendo/css/kendo.fiori.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/assets/content/css/mystyle.css?v=1" />
+    <link href="~/lib/fontawesome-pro-5.15.3-web/css/all.min.css" rel="stylesheet" />
+    <link href="~/assets/global/plugins/jquery-notific8/jquery.notific8.min.css" rel="stylesheet" />
+
+    <script src="~/lib/moment/moment.js"></script>
+
+    <script src="~/js/myscript.js?v=1"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/assets/content/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="~/assets/content/css/horizontal-layout-light/vendor.bundle.base.js"></script>
+    <script src="~/assets/content/js/jquery-ui-1.12.1.js"></script>
+    <script src="~/lib/kendo/js/kendo.all.min.js"></script>
+    <script src="~/lib/kendo/js/kendo.aspnetmvc.min.js"></script>
+    <script src="~/lib/kendo/js/jszip.min.js"></script>
+    <script src="~/js/kendo.modernizr.custom.js"></script>
+    <script src="~/lib/kendo/js/cultures/kendo.culture.vi-VN.min.js"></script>
+    <script src="~/lib/kendo/js/messages/kendo.messages.vi-VN.min.js"></script>
+    <script type="text/javascript">
+        var extension = "";
+        var xoFunc = xoFunc || {};  
+        $(document).ready(function () {
+            kendo.culture("vi-VN");
+        })
+    </script>
+    <style>
+        thead, tr, th 
+        {
+           border-color: rgba(0, 0, 0, 0.08) !important;
+           vertical-align: middle !important;
+        }
+
+        .card {
+            margin-top: 10px !important;
+        }
+    </style>
+</head>
+
+<body class="sidebar-icon-only">
+    <div id="pageLoading" class="container-scroller">
+        <div id="" class="horizontal-menu">
+            <nav class="navbar top-navbar col-lg-12 col-12 p-0" style="background:#1464b3">
+                @await Component.InvokeAsync("Header", null)
+            </nav>
+            <nav class="bottom-navbar" style="border-bottom: 1px #1464b3 solid;">
+                @await Component.InvokeAsync("LeftMenu", null)
+            </nav>
+        </div>
+        <div id="idpagebodywrapper" class="container-fluid page-body-wrapper">
+            <div id="idmainpanel" class="main-panel">
+                <div class="content-wrapper" style="padding-top: 0px !important">
+                    <div class="row">
+                        <div class="col-md-12 grid-margin">
+                            <div class="row">
+                                <div id="idtitle" class="col-12 col-xl-8 mb-4 mb-xl-0" style="margin-bottom:0">
+                                    @RenderSection("Scripts", required: false)
+                                </div>
+                                <div class="col-md-12 grid-margin stretch-card">
+                                    <div class="card">
+                                        <div class="card-body" style="padding-top: 10px !important">
+                                            @RenderBody()
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="idle-timeout-dialog" style="width:100% !important;" data-backdrop="static">
+        <div class="modal-dialog modal-small">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Phiên làm việc bạn sắp hết thời hạn.</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <i class="fa fa-warning font-red"></i> Phiên làm việc sẽ khóa trong
+                        <span id="idle-timeout-counter"></span> giây.
+                    </p>
+                    <p> Bạn có muốn tiếp tục giữ phiên làm việc không? </p>
+                </div>
+                <div class="modal-footer">
+                    <button id="idle-timeout-dialog-logout" type="button" class="btn dark btn-outline sbold uppercase">Không, Hãy đăng xuất</button>
+                    <button id="idle-timeout-dialog-keepalive" type="button" class="btn green btn-outline sbold uppercase" data-dismiss="modal">Có, Tiếp tục làm việc</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/assets/content/vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/assets/content/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <script src="~/assets/content/js/dataTables.select.min.js"></script>
+    <script src="~/assets/content/js/dashboard.js"></script>
+    <script src="~/assets/content/js/calendar.js"></script>
+    <script src="~/assets/content/js/modal-demo.js"></script>
+
+    <script src="~/assets/content/vendors/jquery-steps/jquery.steps.min.js"></script>
+    <script src="~/assets/content/vendors/jquery-validation/jquery.validate.min.js"></script>
+
+    <script src="~/assets/content/js/off-canvas.js"></script>
+    <script src="~/assets/content/js/hoverable-collapse.js"></script>
+    <script src="~/assets/content/css/horizontal-layout-light/template.js"></script>
+    <script src="~/assets/content/js/settings.js"></script>
+    <script src="~/assets/content/js/todolist.js"></script>
+
+    <script src="~/assets/content/js/wizard.js"></script>
+    <script src="~/assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js"></script>
+    <script src="~/assets/global/plugins/bootstrap-modal/js/bootstrap-modal.js"></script>
+    <script src="~/assets/global/plugins/jquery.blockui.min.js"></script>
+    <script src="~/assets/global/plugins/jquery-notific8/jquery.notific8.min.js"></script>
+    
+    <div id="popupProcessReader"></div>
+    <div class="modal fade" id="modal-systemModal" tabindex="-1" role="basic" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg" id='modelContainer-systemModal'>
+
+        </div>
+
+    </div>
+    <script id="treeview-template" type="text/kendo-ui-template">
+        # if(item.hasChildren) { #
+            <img class="k-image" alt="" src="/images/fopen_sm.png" />
+        # } else { #
+            <img class="k-image" alt="" src="/images/fclose_sm.png" />
+        # } #
+        #= item.Name #
+    </script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        $(function() {
+            $.fn.size = function() {
+                return this.length;
+            }
+        });
+
+        $(document).ready(function () {
+
+            /*kendo.culture("vi-VN");*/
+
+            var mnActive = localStorage.getItem("MenuActive");
+            $('#' + mnActive).addClass("active");
+            var spActive = localStorage.getItem("SpanActive");
+            $('#' + spActive).css("display", "initial");
+
+            showLoading(false);
+
+            //process reader dialog
+            var dialogReader = $("#popupProcessReader");
+            dialogReader.kendoWindow({
+                actions: ["Close"],
+                draggable: true,
+                modal: true,
+                scrollable: true,
+                resizable: false,
+                visible: false,
+                close: function (e) {
+                    isLoading = true; //active loading when popup close
+                    kendo.ui.progress(this.element, false);
+                    $("#popupProcessReader").empty();   //clear content html
+                },
+                refresh: function () {
+                    //open center screen
+                    this.center();
+                }
+            }).data("kendoWindow").close();
+            $(".k-window").css("z-index", 10060);
+        });
+
+        function redirectToPage(action, controller, active) {
+            localStorage.setItem("MenuActive", "mn" + active);
+            localStorage.setItem("SpanActive", "sp" + active);
+            var href = '@Url.Action("_Action_", "_Controller_")';
+            href = href.replace('_Action_', action);
+            href = href.replace('_Controller_', controller);
+            window.location.href = href;
+        }
+
+        //function menuClose() {
+        //    document.body.classList.add(
+        //        'page-sidebar-closed'
+        //    );
+        //    $("#ulMenu").addClass("page-sidebar-menu-closed");
+        //}
+
+        //function menuOpen() {
+        //    document.body.classList.remove(
+        //        'page-sidebar-closed'
+        //    );
+        //    $("#ulMenu").removeClass("page-sidebar-menu-closed");
+        //}
+
+        function numberWithCommas(x) {
+            return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        }
+
+        //POPUP DETAIL
+        function taiTepDinhKemPopup(url) {
+            //dowload file
+            window.location.href = '@Url.Action("Download", "Home")?filePath=' + decodeURI(url);
+        }
+
+        //show file đính kèm
+        function xemTepDinhKemPopup(url) {
+            //var path = "https://localhost:44318/Home/Index?documentUrl=" + url
+            //$('#viewer').attr('src', path)
+
+            var dialog = $("#popupProcessReader").data("kendoWindow").center().open();
+            dialog.refresh({
+                url: '@Url.Action("ShowPopupDocumentReader", "Home")',
+                data: {
+                    documentUrl: decodeURI(url)
+                }
+            });
+            dialog.title("Tệp " + decodeURI(url.split(/(\\|\/)/g).pop()));
+            dialog.setOptions({
+                actions: ["close"]
+            });
+            dialog.maximize();
+
+        }
+
+        Date.prototype.toJSON = function () {
+            //return moment(this).format("YYYY-MM-DDTHH:mm:ss");
+
+            var utcDate = new Date(Date.UTC(
+              this.getFullYear(),
+              this.getMonth(),
+              this.getDate(),
+              this.getHours(),
+              this.getMinutes(),
+              this.getSeconds(),
+              this.getMilliseconds()
+            ));
+            return utcDate.toISOString();
+        }
+    </script>
+</body>
+</html>

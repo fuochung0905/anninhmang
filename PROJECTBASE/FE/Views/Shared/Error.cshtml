@@ -1,0 +1,45 @@
+﻿@model string 
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+<!-- Main content -->
+<section class="content">
+    <!-- Default box -->
+    <div class="box">
+        <div class="box-body">
+            <div style="margin-top:50px; text-align:center;">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-sm-12" style="font-size:25px; text-align:center; color:#c21806;">
+                            <i class="fa fa-warning" aria-hidden="true"></i>
+                            <span> THÔNG BÁO </span>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 20px;">
+                        <div class="col-sm-12">
+                            <h2>@Model </h2>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <a href="#" class="btn btn-primary btn-sm" onclick="goBack()">
+                                <span class="glyphicon glyphicon-backward"></span>
+                                Trở lại trang trước
+                            </a>
+                            <a href="~/Home/" class="btn btn-default btn-sm">
+                                <span class="glyphicon glyphicon-home"></span>
+                                Trở về trang chủ
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.box -->
+</section>
+<!-- /.content -->

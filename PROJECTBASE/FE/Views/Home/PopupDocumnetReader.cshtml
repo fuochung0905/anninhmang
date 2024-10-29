@@ -1,0 +1,30 @@
+﻿@*<div style="text-align:right;">
+    <button class="btn btn-primary" type="button" onclick="btnCloseDocumentReader()"><i class="fa fa-ban" aria-hidden="true"></i> Đóng </button>
+</div>*@
+<iframe id="viewer" frameborder="0" scrolling="no" 
+style="position: absolute; left: 0px; height: 95%; width: 1px; min-width: 100%; *width: 100%;"
+    src="@ViewBag.Src"
+
+></iframe>
+
+<script>
+    $(document).ready(function () {
+        //var documnetUrl =  Html.Raw(Json.Encode(ViewData["DocumnetUrl"]));
+        //var documentMode = 1;
+        //var src = "/Home/LoadDocumnetTemplate?documentUrl=" + documnetUrl + "&documentMode=" + documentMode;
+        //$("#viewer").attr('src', src);
+    });
+
+    //close popup
+    function btnCloseDocumentReader()
+    {
+        var window = $("#popupProcessReader").data("kendoWindow");
+        if(window != null)
+        {
+            $("#popupProcessReader").empty();
+            window.close();
+        }
+    }
+</script>
+
+

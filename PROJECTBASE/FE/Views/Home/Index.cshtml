@@ -1,0 +1,452 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+@* <div class="row">
+    <div class="col-md-3 grid-margin">
+        <div class="card card-bx d-flex align-items-center">
+            <div class="card-body">
+                <div class="d-flex flex-row align-items-center">
+                    <i class="far fa-file-signature icon-md text-danger"></i>
+                    <div class="ms-3">
+                        <h6>KHIẾU NẠI</h6>
+                        <h3 class="text-number-db">12</h3>
+                        <p class="mt-2 text-muted card-text">Cao hơn cùng kỳ năm ngoái</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin">
+        <div class="card card-bx d-flex align-items-center">
+            <div class="card-body">
+                <div class="d-flex flex-row align-items-center">
+                    <i class="fas fa-gavel icon-md text-warning"></i>
+                    <div class="ms-3">
+                        <h6>TỐ CÁO</h6>
+                        <h3 class="text-number-db">15</h3>
+                        <p class="mt-2 text-muted card-text">Bằng cùng kỳ năm ngoái</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin">
+        <div class="card card-bx d-flex align-items-center">
+            <div class="card-body">
+                <div class="d-flex flex-row align-items-center">
+                    <i class="fal fa-window-restore text-primary icon-md"></i>
+                    <div class="ms-3">
+                        <h6>YÊU CẦU</h6>
+                        <h3 class="text-number-db">13</h3>
+                        <p class="mt-2 text-muted card-text">Bằng cùng kỳ năm ngoái</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin">
+        <div class="card card-bx d-flex align-items-center">
+            <div class="card-body">
+                <div class="d-flex flex-row align-items-center">
+                    <i class="fas fa-gavel icon-md text-warning"></i>
+                    <div class="ms-3">
+                        <h6>KIẾN NGHỊ PHẢN ÁNH</h6>
+                        <h3 class="text-number-db">20</h3>
+                        <p class="mt-2 text-muted card-text">Cao hơn cùng kỳ năm ngoái</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-md-9 grid-margin">
+        <div class="card card-bx d-flex align-items-center">
+            <div class="card1">
+                <div class="card1-heading">
+                    <div class="card1-heading-area1">
+                        <div class="card1-heading-area1-title">
+                            <h2>Thống kê đơn thư</h2>
+                        </div>
+                        <div class="card1-heading-area1-chartDesc">
+                            <div class="chartDesc">
+                                <span class="dot1"></span>
+                                <p>Cá nhân</p>
+                            </div>
+                            <div class="chartDesc">
+                                <span class="dot2"></span>
+                                <p>Tổ chức</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart">
+                    <div class="chartCard">
+                        <div class="chartBox" style="width: 100%">
+                            <canvas id="myChart_DonXuPhat_Nam" style="width: 100%"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin">
+        <div class="card card-bx d-flex align-items-center" style="height: 100%">
+            <div class="card2">
+                <div class="card2-heading">
+                    <div class="card2-heading-area1">
+                        <h2 class="card2-heading-area1-title">Tra cứu</h2>
+                        <p class="card2-heading-area1-subTitle">Thông tin đơn</p>
+                    </div>
+
+                    <div class="card2-heading-area2">
+                        <img src="~/assets/content/images/Group 9.png" alt="" class="card2-heading-area2-icon" />
+                    </div>
+                </div>
+
+                <div class="card2-content">
+                    <div class="card2-content-item">
+                        <div class="card2-textBox">
+                            <div class="card2-textBox-area1">
+                                <p class="card2-floating-text1">Lê Văn A * Đồng Nai</p>
+                                <p>Nội dung: Vi phạm quy chế...</p>
+                                <p>Hình thức: Phạt tiền</p>
+                                <p>Mức phạt: 1.000.000 đồng</p>
+                            </div>
+                            <div class="card2-textBox-area2">
+                                <div class="card2-textBox-area2-text">
+                                    <p>QĐ123/QĐ VA</p>
+                                    <p>Ngày QĐ 10/11/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card2-content-item">
+                        <div class="card2-textBox">
+                            <div class="card2-textBox-area1">
+                                <p class="card2-floating-text1">Lê Văn A * Đồng Nai</p>
+                                <p>Nội dung: Vi phạm quy chế...</p>
+                                <p>Hình thức: Phạt tiền</p>
+                                <p>Mức phạt: 1.000.000 đồng</p>
+                            </div>
+
+                            <div class="card2-textBox-area2">
+                                <div class="card2-textBox-area2-text">
+                                    <p>QĐ123/QĐ VA</p>
+                                    <p>Ngày QĐ 10/11/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2-content-item">
+                        <div class="card2-textBox">
+                            <div class="card2-textBox-area1">
+                                <p class="card2-floating-text1">Lê Văn A * Đồng Nai</p>
+                                <p>Nội dung: Vi phạm quy chế...</p>
+                                <p>Hình thức: Phạt tiền</p>
+                                <p>Mức phạt: 1.000.000 đồng</p>
+                            </div>
+
+                            <div class="card2-textBox-area2">
+                                <div class="card2-textBox-area2-text">
+                                    <p>QĐ123/QĐ VA</p>
+                                    <p>Ngày QĐ 10/11/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2-content-item">
+                        <div class="card2-textBox">
+                            <div class="card2-textBox-area1">
+                                <p class="card2-floating-text1">Lê Văn A * Đồng Nai</p>
+                                <p>Nội dung: Vi phạm quy chế...</p>
+                                <p>Hình thức: Phạt tiền</p>
+                                <p>Mức phạt: 1.000.000 đồng</p>
+                            </div>
+
+                            <div class="card2-textBox-area2">
+                                <div class="card2-textBox-area2-text">
+                                    <p>QĐ123/QĐ VA</p>
+                                    <p>Ngày QĐ 10/11/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-2">
+    <div class="col-md-9 grid-margin">
+        <div class="card card-bx d-flex align-items-center">
+            <div class="card1">
+                <div class="content__big-block2-tabs">
+                    <div class="content__big-block2-tab">
+                        <img src="~/assets/content/images/grid.png" alt="" />
+
+                        <div class="content__big-block2-tab-text">
+                            <p class="content__big-block2-tab-mini-text">Tổng hồ sơ xử lý</p>
+                            <p class="content__big-block2-tab-number"><label id="lblTongHoSoXuLy">0</label></p>
+                        </div>
+                    </div>
+
+                    <div class="content__big-block2-tab">
+                        <img src="~/assets/content/images/Group 1000001074.png" alt="" />
+
+                        <div class="content__big-block2-tab-text">
+                            <p class="content__big-block2-tab-mini-text">Tổng số tang vật</p>
+                            <p class="content__big-block2-tab-number"><label id="lblTongSoTangVat">0</label></p>
+                        </div>
+                    </div>
+
+                    <div class="content__big-block2-tab">
+                        <img src="~/assets/content/images/Vector.png" alt="" />
+
+                        <div class="content__big-block2-tab-text">
+                            <p class="content__big-block2-tab-mini-text">Tổng giá trị đấu giá</p>
+                            <p class="content__big-block2-tab-number"><label id="lblTongGiaTriDauGia">0</label></p>
+                        </div>
+                    </div>
+
+                    <div class="content__big-block2-tab">
+                        <img src="~/assets/content/images/Path 41241.png" alt="" />
+
+                        <div class="content__big-block2-tab-text">
+                            <p class="content__big-block2-tab-mini-text">Tổng tiền thu</p>
+                            <p class="content__big-block2-tab-number"><label id="lblTongTienThu">0</label></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__big-block2-tabs2">
+                    <p class="content__big-block2-tabs2-text">Hồ sơ lưu trữ</p>
+                    <div class="content__big-block2-tabs2-card">
+                        <div class="content__big-block2-tabs2-card1">
+                            <div class="content__big-block2-tabs2-card1-area1-1">
+                                <img src="~/assets/content/images/image-1.png" alt="" class="content__big-block2-tabs2-card1-area1-1-icon">
+                                <div class="content__big-block2-tabs2-card1-area1-1-text">
+                                    <p class="content__big-block2-tabs2-card1-area1-1-text1">Hồ sơ xử lý trực tiếp</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-1-text2">20% hồ sơ đã xử lý</p>
+                                </div>
+                            </div>
+
+                            <div class="content__big-block2-tabs2-card1-area1-2">
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-1">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Biên bản</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>700</b></p>
+                                </div>
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-2">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Quyết định</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>100</b></p>
+                                </div>
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-3">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Kết quả</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>10</b></p>
+                                </div>
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-4">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Hồ sơ</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>10</b></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content__big-block2-tabs2-card1">
+                            <div class="content__big-block2-tabs2-card1-area1-1">
+                                <img src="~/assets/content/images/image-2.png" alt="" class="content__big-block2-tabs2-card1-area1-1-icon">
+                                <div class="content__big-block2-tabs2-card1-area1-1-text">
+                                    <p class="content__big-block2-tabs2-card1-area1-1-text1">Tra cứu</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-1-text2">10% văn bản đã xử lý</p>
+                                </div>
+                            </div>
+
+                            <div class="content__big-block2-tabs2-card1-area1-2">
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-1">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Số Đối tượng</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>500</b></p>
+                                </div>
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-2">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Số quyết định</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>200</b></p>
+                                </div>
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-3">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Thu-chi</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>200</b></p>
+                                </div>
+                                <div class="content__big-block2-tabs2-card1-area1-2-item-4">
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-text">Tổng hợp</p>
+                                    <p class="content__big-block2-tabs2-card1-area1-2-item-1-number"><b>50</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 grid-margin">
+        <div class="card card-bx d-flex align-items-center" style="height: 100%">
+            <div class="card2">
+                <div class="card2-heading">
+                    <div class="card2-heading-area1">
+                        <h2 class="card2-heading-area1-title">Khiếu nại Tố cáo</h2>
+                        <p class="card2-heading-area1-subTitle">Khiếu nại - Giải quyết Khiếu nại</p>
+                    </div>
+
+                    <div class="card2-heading-area2">
+                        <img src="~/assets/content/images/Group 9.png" alt="" class="card2-heading-area2-icon" />
+                    </div>
+                </div>
+
+                <div class="card2-progress">
+                    <div class="card2-progress-item">
+                        <div class="card2-progress-item-title">
+                            <div class="card2-progress-item-text">Phòng 1</div>
+                            <div class="card2-progress-item-num">5/20</div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-danger w-25"></div>
+                        </div>
+                    </div>
+
+                    <div class="card2-progress-item">
+                        <div class="card2-progress-item-title">
+                            <div class="card2-progress-item-text">Phòng 2</div>
+                            <div class="card2-progress-item-num">7/20</div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width:35%"></div>
+                        </div>
+                    </div>
+
+                    <div class="card2-progress-item">
+                        <div class="card2-progress-item-title">
+                            <div class="card2-progress-item-text">Phòng 3</div>
+                            <div class="card2-progress-item-num">9/20</div>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> *@
+<script>
+    var _tongThongTin = "";
+    var _danhSachCaNhanToChucDaXuPhats = "";
+    $(document).ready(function () {
+        dashboard_HoSo();
+    });
+
+    function makeBarChartHoSoXuPhat(thang, dangxuly, daketthuc) {
+
+        const config = {
+            type: 'bar',
+            data: {
+                labels: thang,
+                datasets: [{
+                        label: 'Đang xử lý',
+                        data: dangxuly,
+                        backgroundColor: '#ededed',
+                        borderRadius: 20
+                    },
+                    {
+                        label: 'Đã kết thúc',
+                        data: daketthuc,
+                        backgroundColor: '#3491D6',
+                        borderRadius: 20
+                    }
+                ]
+            },
+            options: {
+                cornerRadius: 20,
+                responsive: true,
+                maintainAspectRatio: true,
+                layout: {
+                    padding: {
+                        left: 0,
+                        right: 0,
+                        top: 20,
+                        bottom: 0
+                    }
+                },
+                scales: {
+                    y: {
+                        display: true,
+                        beginAtZero: true,
+                        text: 'probability'
+                    },
+                    x: {
+                        grid: {
+                            display: false
+                        },
+                        label: {
+                            display: false
+                        }
+                    },
+                    yAxes: [{
+                        display: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'value'
+                        },
+                        gridLines: {
+                            display: false,
+                            drawBorder: false,
+                            color: "#F2F2F2"
+                        },
+                        grid: {
+                            display: false
+                        },
+                        ticks: {
+                            display: true,
+                            autoSkip: true,
+                            fontColor: "#6C7383"
+                        }
+                    }],
+                    xAxes: [{
+                        stacked: false,
+                        ticks: {
+                            beginAtZero: true,
+                            fontColor: "#6C7383"
+                        },
+                        gridLines: {
+                            color: "rgba(0, 0, 0, 0)",
+                            display: false
+                        },
+                        barPercentage: 1
+                    }]
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                }
+            }
+        };
+        // render init block
+        const myChart = new Chart(
+            document.getElementById('myChart_DonXuPhat_Nam').getContext('2d'),
+            config
+        );
+    }
+</script>
+<script>
+     $(document).ready(function () {
+        localStorage.setItem("MenuActive", "mnHome");
+        localStorage.setItem("SpanActive", "spHome");
+     });
+</script>
+

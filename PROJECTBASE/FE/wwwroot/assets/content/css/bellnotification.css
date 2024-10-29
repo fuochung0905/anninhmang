@@ -1,0 +1,114 @@
+﻿#bell {
+    display: block;
+    width: 10vmin;
+    min-width: 1rem;
+    height: auto;
+    animation: ring 1.5s infinite ease-in-out
+}
+
+#clapper-group {
+    transform-origin: top center;
+    animation: ring-clapper 1.5s infinite linear;
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(-30deg)
+    }
+
+    50% {
+        transform: rotate(30deg)
+    }
+
+    100% {
+        transform: rotate(-30deg)
+    }
+}
+
+@keyframes ring-clapper {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    20% {
+        transform: rotate(20deg)
+    }
+
+    70% {
+        transform: rotate(-20deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+.message {
+    color: white
+}
+
+.demo-section p {
+    margin: 3px 10px 20px;
+    line-height: 50px;
+    color: white;
+    font-size: 12pt
+}
+
+.demo-section .k-button {
+    width: 250px;
+}
+/* Notifications */
+.k-notification-error {
+    background-color: #ff0900 !important;
+}
+
+.k-notification h3 {
+    padding: 5px 5px 5px;
+    font-size: 1em;
+    line-height: normal;
+    background-color: red;
+    color: white;
+    font-size: 14pt
+}
+
+.k-notification img {
+    margin: 20px;
+    float: left;
+}
+/* Error template */
+.wrong-pass {
+    width: 300px;
+    height: 100px;
+    background-color: red
+}
+/* For Bootstrap v4 theme */
+.k-bootstrap-v4 .k-notification h3 {
+    padding: 10px 10px 5px;
+}
+
+.k-bootstrap-v4 .k-notification img {
+    margin: 10px 20px 0 0;
+}
+
+.k-bootstrap-v4 .new-mail,
+.k-bootstrap-v4 .wrong-pass,
+.k-bootstrap-v4 .upload-success {
+    width: calc( 300px - 2.5rem );
+    height: calc( 100px - 1.5rem );
+}
+
+
+/* For Material v2 theme */
+.k-material-v2 .k-notification h3 {
+    padding: 10px 10px 5px;
+}
+
+.k-material-v2 .k-notification img {
+    margin: 10px 20px 0 0;
+}
+
+.k-material-v2 .new-mail,
+.k-material-v2 .wrong-pass,
+.k-material-v2 .upload-success {
+    width: 270px;
+    height: 70px;
+}

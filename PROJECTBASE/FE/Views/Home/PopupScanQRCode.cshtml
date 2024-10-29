@@ -1,0 +1,53 @@
+﻿<script src="~/js/html5-qrcode.min.js"></script>
+
+<div class="modal-content" id="modalLoading">
+    <div class="modal-header">
+        <h4 class="modal-title">Quét mã vạch</h4>
+        <button type="button" class="close" onclick="closePopup();">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body" style="align-self:center;">
+        <div id="qr-reader" style="width:500px;"></div>
+        <div id="qr-reader-results"></div>
+    </div>
+</div>
+
+<script>
+    function docReady(fn) {
+        // see if DOM is already available
+        if (document.readyState === "complete"
+            || document.readyState === "interactive") {
+            // call on next available tick
+            setTimeout(fn, 1);
+        } else {
+            document.addEventListener("DOMContentLoaded", fn);
+        }
+    }
+
+    docReady(function () {
+        var resultContainer = document.getElementById('qr-reader-results');
+        var lastResult, countResults = 0;
+        function onScanSuccess(decodedText, decodedResult) {
+            if (decodedText !== lastResult) {
+                ++countResults;
+                lastResult = decodedText;
+                // Handle on success condition with the decoded message.
+                //console.log(`Scan result ${decodedText}`, decodedResult);
+                callBackResult(decodedText);
+            }
+        }
+
+        let html5QrcodeScanner = new Html5QrcodeScanner(
+            "qr-reader",
+            { 
+                fps: 10,
+                experimentalFeatures: {
+                    useBarCodeDetectorIfSupported: true
+                },
+            rememberLastUsedCamera: true,
+            showTorchButtonIfSupported: true
+        });
+        html5QrcodeScanner.render(onScanSuccess);
+    });
+</script>

@@ -1,0 +1,39 @@
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.deps.json
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.csproj.AssemblyReference.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.sourcelink.json
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.pdb
+C:\HiDa\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\ref\MODELS.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.deps.json
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.csproj.AssemblyReference.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.sourcelink.json
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.pdb
+C:\HiDay\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\ref\MODELS.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.deps.json
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\bin\Debug\net8.0\MODELS.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.csproj.AssemblyReference.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.sourcelink.json
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\MODELS.pdb
+C:\Users\NGUYEN PHUOC HUNG\DAIHOC\projectbase_net8\projectbase_net8\PROJECTBASE\CORE\MODELS\obj\Debug\net8.0\ref\MODELS.dll

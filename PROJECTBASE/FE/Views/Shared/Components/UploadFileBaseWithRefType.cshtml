@@ -1,0 +1,189 @@
+﻿@* @model MODELS.BASE.MODELUploadFileBase; *@
+@* <style> *@
+@*     #uploadFileBase .k-icon, .k-tool-icon { *@
+@*         overflow: hidden !important; *@
+@*     } *@
+
+@*     .k-upload-status .k-button { *@
+@*         width: auto !important; *@
+@*     } *@
+@* </style> *@
+@* <div class="portlet box blue" id="modelUploadFileBase_@Model.RefType"> *@
+@*     <div class="portlet-title"> *@
+@*         <div class="caption"> *@
+@*             <i class="fa fa-paperclip"></i> *@
+@*             TỆP ĐÍNH KÈM *@
+@*         </div> *@
+@*         <div class="tools"> *@
+@*             <a href="javascript:;" class="collapse" data-original-title="" title=""> </a> *@
+@*         </div> *@
+@*     </div> *@
+@*     <div class="portlet-body"> *@
+@*         <div class="row"> *@
+@*             <div class="col-md-12" id="attachment"> *@
+@*                 @Html.Hidden("TepDinhKemIDs" + Model.RefType) *@
+@*                 <script> *@
+@*                     $("#TepDinhKemIDs" + '@Model.RefType').val('@Model.RandomIdKey'); *@
+
+@*                     function gridData_DinhKemBase_@Model.RefType () { *@
+@*                         return { *@
+@*                             RefId: $('#Id').val(), *@
+@*                             RefType: '@Model.RefType', *@
+@*                             RandomIdKey: '@Model.RandomIdKey', *@
+@*                             TextSearch: $("#TextSearch").val() *@
+@*                         } *@
+@*                     } *@
+
+@*                     function refreshGridData_DinhKemBase_@Model.RefType () { *@
+@*                         var grid = $("#gridDinhKemBase" + '@Model.RefType').data("kendoGrid"); *@
+@*                         grid.dataSource.page(1); *@
+@*                     } *@
+
+@*                     function xoaTepDinhKemPopup_@Model.RefType (element) { *@
+@*                         grid = $("#gridDinhKemBase" + '@Model.RefType').data("kendoGrid"); *@
+@*                         var dataselect = $(element).closest("tr"); *@
+@*                         var dataitem = grid.dataItem(dataselect); *@
+@*                         var formData = new FormData(); *@
+@*                         formData.append("Id", dataitem.Id); *@
+@*                         formData.append("RefType", dataitem.RefType); *@
+@*                         showLoadingElement(true, 'modelUploadFileBase_@Model.RefType'); *@
+@*                         $.ajax({ *@
+@*                             url: "@Url.Action("RemoveDinhKemFiles", "Home")", *@
+@*                             type: "POST", *@
+@*                             data: formData, *@
+@*                             processData: false, *@
+@*                             contentType: false, *@
+@*                             success: function (data) { *@
+@*                                 showLoadingElement(false, 'modelUploadFileBase_@Model.RefType'); *@
+@*                                 if (data == null || data == '') { *@
+@*                                     grid.removeRow(dataselect); *@
+@*                                 } *@
+@*                                 else { *@
+@*                                     showErrorNotify(data); *@
+@*                                 } *@
+@*                             } *@
+@*                         }); *@
+@*                     } *@
+@*                 </script> *@
+@*                 @( *@
+@*                     Html.Kendo().Grid<MODELS.BASE.MODELTepDinhKem>() *@
+@*                     .Name("gridDinhKemBase" + Model.RefType) *@
+@*                     .HtmlAttributes(new { @class = "table table-hover table-striped", style = "border-top:0px;cursor:pointer; border:1px #ccc solid;" }) *@
+@*                     .Columns(columns => *@
+@*                     { *@
+@*                         columns.Bound(c => c.TenFile).Title("Tên files").HtmlAttributes(new { @style = "white-space:normal;" }); *@
+@*                         columns.Bound(o => o.Url).Title("Chức năng").Filterable(false).ClientTemplate( *@
+@*                         "<a class='btnTDK' title='Xem tệp đính kèm' onclick='xemTepDinhKemPopup(\"" + Model.FolderUpload + "#= encodeURI(Url) #\", \"" + Model.FolderUpload + "#= Url #\", \"#= TenFile #\")'><i style='font-size:16px;' class='fa fa-search' aria-hidden='true'></i></a>" + *@
+@*                         "<a class='btnTDK' title='Tải tệp đính kèm' onclick='taiTepDinhKemPopup(\"" + Model.FolderUpload + "#= encodeURI(Url) #\", \"" + Model.FolderUpload + "#= Url #\")'><i style='font-size:16px;' class='fa fa-download' aria-hidden='true'></i></a>" + *@
+@*                         "<a class='btnTDK' title='Xóa tệp đính kèm' onclick='xoaTepDinhKemPopup_" + @Model.RefType + "(this)' style='color:darkslategrey!important;'><i style='font-size:16px;' class='fal fa-trash-alt' aria-hidden='true'></i></a>").Width(140); *@
+@*                     }) *@
+@*                     .Pageable() *@
+@*                     .DataSource(dataSource => dataSource *@
+@*                         .Ajax() *@
+@*                         .Read(read => read.Action("GetListPagingWithRefId", "DinhKemFiles").Data("gridData_DinhKemBase_" + Model.RefType)) *@
+@*                     ) *@
+@*                 ) *@
+@*             </div> *@
+@*         </div> *@
+@*         <div class="row"> *@
+@*             <div class="col-md-12"> *@
+@*                 @(Html.Kendo().Upload() *@
+@*                     .Name("uploadFileBase" + @Model.RefType) *@
+@*                     .Async(a => a *@
+@*                         .Save("UploadDinhKemFiles", "Home") *@
+@*                         .Remove("RemoveDinhKemFiles", "Home") *@
+@*                         .AutoUpload(true) *@
+@*                     ) *@
+@*                     .Events(e => e *@
+@*                     .Upload(@<text> *@
+@*                         function(e) *@
+@*                         { *@
+@*                             var Id = $('#Id').val(); *@
+@*                             if (Id != '') { *@
+@*                                 e.data = { Id: Id, RefType: '@Model.RefType', RandomIdKey: '@Model.RandomIdKey' }; *@
+@*                             } *@
+@*                             else { *@
+@*                                 e.data = { Id: Id, RefType: '@Model.RefType', RandomIdKey: '@Model.RandomIdKey' }; *@
+@*                             } *@
+@*                         } *@
+@*                     </text>) *@
+@*                     .Success(@<text> *@
+@*                         function(e) *@
+@*                         { *@
+@*                             refreshGridData_DinhKemBase_@Model.RefType (); *@
+@*                         } *@
+@*                     </text>) *@
+@*                     .Error(@<text> *@
+@*                         function(e) *@
+@*                         { *@
+@*                             showErrorNotify(e.XMLHttpRequest.response); *@
+@*                         } *@
+@*                     </text>) *@
+@*                     ) *@
+@*                     .Events(e => e *@
+@*                     .Remove(@<text> *@
+@*                         function(e) { *@
+@*                             e.data = { RefType: '@Model.RefType', RandomIdKey: '@Model.RandomIdKey' }; *@
+@*                         } *@
+@*                     </text>)) *@
+@*                     .HtmlAttributes(new { @class = "input" }) *@
+@*                     .Multiple(Model.MultiFile) *@
+@*                     .Messages(m => m.Select("Chọn tệp tin...")) *@
+@*                     .Messages(m => m.InvalidFileExtension("Tệp không đúng định dạng")) *@
+@*                     .Messages(m => m.InvalidMaxFileSize("Tệp vượt quá kích thước quy định")) *@
+@*                     .Messages(m => m.StatusFailed("Đã xảy ra lỗi khi tải lên")) *@
+@*                     .Messages(m => m.StatusUploaded("Hoàn thành")) *@
+@*                     .Messages(m => m.StatusUploading("Đang tải lên")) *@
+@*                     .Messages(m => m.HeaderStatusUploaded("Hoàn thành")) *@
+@*                     .Messages(m => m.HeaderStatusUploading("Đang tải lên")) *@
+@*                     .Validation(validation => validation.AllowedExtensions(Model.FileValidate).MaxFileSize(Model.FileSizeLimit * 1048576))) *@
+@*                 <blockquote> *@
+@*                     <small>Bạn chỉ có thể tải lên tệp có định dạng <cite title="Source Title"><b>@Model.FileValidateText</b></cite> và kích thước không quá <cite title="Source Title"><b>@(Model.FileSizeLimit.ToString())MB</b></cite></small> *@
+@*                 </blockquote> *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
+@* <script> *@
+@*     function uploadFile_@Model.RefType (){ *@
+@*         //UPLOAD FILE *@
+@*         var upload = $("#uploadFileBase" + '@Model.RefType').data("kendoUpload"); *@
+@*         var files = upload.getFiles(); *@
+@*         if (files.length > 0) { *@
+@*             if (window.FormData !== undefined) { *@
+@*                 var data = new FormData(); *@
+@*                 data.append("FolderName", $("#FolderUpload").val()); *@
+@*                 if (files.length > 0) { *@
+@*                     for (var x = 0; x < files.length; x++) { *@
+@*                         data.append("file", files[x].rawFile); *@
+@*                     } *@
+@*                 } *@
+@*                 return $.ajax({ *@
+@*                     type: "POST", *@
+@*                     url: '/Home/UploadFile', *@
+@*                     contentType: false, *@
+@*                     processData: false, *@
+@*                     data: data, *@
+@*                     success: function (data) { *@
+@*                         return; *@
+@*                     } *@
+@*                 }); *@
+@*             } else { *@
+@*                 showErrorNotify("Vui lòng cập nhật trình duyệt web của bạn!"); *@
+@*             } *@
+@*         } *@
+@*     } *@
+
+@*     //Hàm lấy tất cả record trên lưới tệp đính kèm, gán cho trường ẩn TepDinhKemIDs *@
+@*     function getAttachments_@Model.RefType (){ *@
+@*         var arrIDs = new Array(); *@
+@*         var grid = $("#gridDinhKemBase" + '@Model.RefType').data(); *@
+@*         if (grid != undefined) { *@
+@*             var gridData = grid.kendoGrid; *@
+@*             $.each(gridData.dataSource.view(), function () { *@
+@*                 arrIDs.push(this['Id']); *@
+@*             }); *@
+@*         } *@
+@*         document.getElementById('TepDinhKemIDs' + '@Model.RefType').value = JSON.stringify(arrIDs); *@
+@*     } *@
+@* </script> *@
