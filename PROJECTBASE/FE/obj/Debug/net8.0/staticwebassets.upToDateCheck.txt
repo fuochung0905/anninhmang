@@ -266,6 +266,7 @@ wwwroot\assets\content\images\logoBTP\logo\SoTuPhap_logo.png
 wwwroot\assets\content\images\logo-light.svg
 wwwroot\assets\content\images\logo-mini.svg
 wwwroot\assets\content\images\logoutc2.jpg
+wwwroot\assets\content\images\logoutc21.png
 wwwroot\assets\content\images\logo-white.svg
 wwwroot\assets\content\images\login\bg2.jpg
 wwwroot\assets\content\images\login\logo.png

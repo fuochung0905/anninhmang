@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\FE.csproj": {}
+    "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\FE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj": {
+    "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj",
+        "projectUniqueName": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj",
         "projectName": "MODELS",
-        "projectPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj",
+        "projectPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj",
         "packagesPath": "C:\\Users\\NGUYEN PHUOC HUNG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\MODELS\\obj\\",
+        "outputPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\MODELS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\FE.csproj": {
+    "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\FE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\FE.csproj",
+        "projectUniqueName": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\FE.csproj",
         "projectName": "FE",
-        "projectPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\FE.csproj",
+        "projectPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\FE.csproj",
         "packagesPath": "C:\\Users\\NGUYEN PHUOC HUNG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\obj\\",
+        "outputPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,8 +107,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj": {
-                "projectPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj"
+              "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj": {
+                "projectPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\MODELS\\MODELS.csproj"
               }
             }
           }

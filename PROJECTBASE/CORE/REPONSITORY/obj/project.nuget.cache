@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7+kPXRunPc=",
+  "dgSpecHash": "YklTAIlxNBg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\REPONSITORY\\REPONSITORY.csproj",
+  "projectFilePath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\REPONSITORY\\REPONSITORY.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NGUYEN PHUOC HUNG\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\NGUYEN PHUOC HUNG\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

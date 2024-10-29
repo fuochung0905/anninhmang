@@ -1,0 +1,1387 @@
+[
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "Delete",
+    "RelativePath": "api/ChucVu/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "DeleteList",
+    "RelativePath": "api/ChucVu/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/ChucVu/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "GetById",
+    "RelativePath": "api/ChucVu/get-by-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "GetByPost",
+    "RelativePath": "api/ChucVu/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "GetList",
+    "RelativePath": "api/ChucVu/get-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetListPagingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "Insert",
+    "RelativePath": "api/ChucVu/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.CHUCVU.Requests.PostChucVuRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.ChucVuController",
+    "Method": "Update",
+    "RelativePath": "api/ChucVu/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.CHUCVU.Requests.PostChucVuRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "Delete",
+    "RelativePath": "api/DonVi/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "DeleteList",
+    "RelativePath": "api/DonVi/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/DonVi/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "GetById",
+    "RelativePath": "api/DonVi/get-by-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "GetByPost",
+    "RelativePath": "api/DonVi/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "GetList",
+    "RelativePath": "api/DonVi/get-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetListPagingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "Insert",
+    "RelativePath": "api/DonVi/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.Requests.PostDonViRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.DonViController",
+    "Method": "Update",
+    "RelativePath": "api/DonVi/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.Requests.PostDonViRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.LicenseController",
+    "Method": "GetCodeRegister",
+    "RelativePath": "api/License/GetCodeRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.MenuController",
+    "Method": "GetAll",
+    "RelativePath": "api/Menu/get-all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.MenuController",
+    "Method": "GetById",
+    "RelativePath": "api/Menu/get-by-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.MENU.Requests.GetMenuByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.MenuController",
+    "Method": "GetByPost",
+    "RelativePath": "api/Menu/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.MENU.Requests.GetMenuByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.MenuController",
+    "Method": "GetListPaging",
+    "RelativePath": "api/Menu/get-list-paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetListPagingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.MenuController",
+    "Method": "Insert",
+    "RelativePath": "api/Menu/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.MENU.Requests.PostMenuRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.MenuController",
+    "Method": "Update",
+    "RelativePath": "api/Menu/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.MENU.Requests.PostMenuRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.NhomQuyenController",
+    "Method": "GetAll",
+    "RelativePath": "api/NhomQuyen/get-all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.NhomQuyenController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/NhomQuyen/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.NhomQuyenController",
+    "Method": "GetById",
+    "RelativePath": "api/NhomQuyen/get-by-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.NhomQuyenController",
+    "Method": "GetByPost",
+    "RelativePath": "api/NhomQuyen/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.NhomQuyenController",
+    "Method": "GetList",
+    "RelativePath": "api/NhomQuyen/get-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.NhomQuyenController",
+    "Method": "Insert",
+    "RelativePath": "api/NhomQuyen/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.NHOMQUYEN.Requests.PostNhomQuyenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.NhomQuyenController",
+    "Method": "Update",
+    "RelativePath": "api/NhomQuyen/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.NHOMQUYEN.Requests.PostNhomQuyenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "Delete",
+    "RelativePath": "api/PhongBan/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "DeleteList",
+    "RelativePath": "api/PhongBan/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/PhongBan/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "GetAllForComboboxWithDonVi",
+    "RelativePath": "api/PhongBan/get-all-combobox-donvi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.PHUONGXA.Requests.GetAllPhongBanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "GetById",
+    "RelativePath": "api/PhongBan/get-by-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "GetByPost",
+    "RelativePath": "api/PhongBan/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "GetList",
+    "RelativePath": "api/PhongBan/get-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetListPhongBanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "Insert",
+    "RelativePath": "api/PhongBan/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.PHONGBAN.Requests.PostPhongBanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhongBanController",
+    "Method": "Update",
+    "RelativePath": "api/PhongBan/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.PHONGBAN.Requests.PostPhongBanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhuongXaController",
+    "Method": "Delete",
+    "RelativePath": "api/PhuongXa/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhuongXaController",
+    "Method": "DeleteList",
+    "RelativePath": "api/PhuongXa/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhuongXaController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/PhuongXa/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.PHUONGXA.Requests.GetAllPhuongXaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhuongXaController",
+    "Method": "GetByPost",
+    "RelativePath": "api/PhuongXa/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhuongXaController",
+    "Method": "GetListPaging",
+    "RelativePath": "api/PhuongXa/get-list-paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetListPagingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhuongXaController",
+    "Method": "Insert",
+    "RelativePath": "api/PhuongXa/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.PHUONGXA.Requests.PostPhuongXaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.PhuongXaController",
+    "Method": "Update",
+    "RelativePath": "api/PhuongXa/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.PHUONGXA.Requests.PostPhuongXaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.BASE.PingController",
+    "Method": "Post",
+    "RelativePath": "api/Ping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.QuanHuyenController",
+    "Method": "Delete",
+    "RelativePath": "api/QuanHuyen/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.QuanHuyenController",
+    "Method": "DeleteList",
+    "RelativePath": "api/QuanHuyen/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.QuanHuyenController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/QuanHuyen/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.PHUONGXA.Requests.GetAllQuanHuyenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.QuanHuyenController",
+    "Method": "GetByPost",
+    "RelativePath": "api/QuanHuyen/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.QuanHuyenController",
+    "Method": "GetListPaging",
+    "RelativePath": "api/QuanHuyen/get-list-paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetListPagingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.QuanHuyenController",
+    "Method": "Insert",
+    "RelativePath": "api/QuanHuyen/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.QUANHUYEN.Requests.PostQuanHuyenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.QuanHuyenController",
+    "Method": "Update",
+    "RelativePath": "api/QuanHuyen/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.QUANHUYEN.Requests.PostQuanHuyenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/TaiKhoan/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.PostChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "Delete",
+    "RelativePath": "api/TaiKhoan/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "DeleteList",
+    "RelativePath": "api/TaiKhoan/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/TaiKhoan/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetById",
+    "RelativePath": "api/TaiKhoan/get-by-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetByPost",
+    "RelativePath": "api/TaiKhoan/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetByUsername",
+    "RelativePath": "api/TaiKhoan/get-by-username",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetByUserNameRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetListMenu",
+    "RelativePath": "api/TaiKhoan/get-list-menu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetListMenuRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetListNhatKy",
+    "RelativePath": "api/TaiKhoan/get-list-nhatky",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetListNhatKyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetListNhatKyThaoTac",
+    "RelativePath": "api/TaiKhoan/get-list-nhatky-thaotac",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetListNhatKyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetListNhatKyTruyCap",
+    "RelativePath": "api/TaiKhoan/get-list-nhatky-truycap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetListNhatKyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetListPaging",
+    "RelativePath": "api/TaiKhoan/get-list-paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetListPagingTaiKhoanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "GetPhanQuyen",
+    "RelativePath": "api/TaiKhoan/get-phan-quyen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.GetPhanQuyenRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "Insert",
+    "RelativePath": "api/TaiKhoan/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.PostTaiKhoanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "Login",
+    "RelativePath": "api/TaiKhoan/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.TaiKhoanController",
+    "Method": "Update",
+    "RelativePath": "api/TaiKhoan/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.TAIKHOAN.Requests.PostTaiKhoanRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.TinhThanhController",
+    "Method": "Delete",
+    "RelativePath": "api/TinhThanh/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.TinhThanhController",
+    "Method": "DeleteList",
+    "RelativePath": "api/TinhThanh/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.TinhThanhController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/TinhThanh/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.TinhThanhController",
+    "Method": "GetByPost",
+    "RelativePath": "api/TinhThanh/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.TinhThanhController",
+    "Method": "GetListPaging",
+    "RelativePath": "api/TinhThanh/get-list-paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetListPagingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.TinhThanhController",
+    "Method": "Insert",
+    "RelativePath": "api/TinhThanh/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.TINHTHANH.Requests.PostTinhThanhRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.DANHMUC.TinhThanhController",
+    "Method": "Update",
+    "RelativePath": "api/TinhThanh/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DANHMUC.TINHTHANH.Requests.PostTinhThanhRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.BASE.UploadFileController",
+    "Method": "Post",
+    "RelativePath": "api/UploadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FolderName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "DeleteList",
+    "RelativePath": "api/VaiTro/delete-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.DeleteListRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "GetAllForCombobox",
+    "RelativePath": "api/VaiTro/get-all-combobox",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "GetById",
+    "RelativePath": "api/VaiTro/get-by-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "GetByPost",
+    "RelativePath": "api/VaiTro/get-by-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "GetListPaging",
+    "RelativePath": "api/VaiTro/get-list-paging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.GetListPagingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "GetListPhanQuyenVaiTro",
+    "RelativePath": "api/VaiTro/get-list-phan-quyen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.VAITRO.Requests.GetListPhanQuyenVaiTroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "Insert",
+    "RelativePath": "api/VaiTro/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.VAITRO.Requests.PostVaiTroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "PostPhanQuyenVaiTro",
+    "RelativePath": "api/VaiTro/post-phan-quyen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.VAITRO.Requests.PostPhanQuyenVaiTroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BE.Controllers.HETHONG.VaiTroController",
+    "Method": "Update",
+    "RelativePath": "api/VaiTro/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MODELS.HETHONG.VAITRO.Requests.PostVaiTroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

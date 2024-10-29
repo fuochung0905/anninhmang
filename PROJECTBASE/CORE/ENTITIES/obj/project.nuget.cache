@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rlEjTpv/N24=",
+  "dgSpecHash": "PY1vYRN43io=",
   "success": true,
-  "projectFilePath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\ENTITIES\\ENTITIES.csproj",
+  "projectFilePath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\ENTITIES.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NGUYEN PHUOC HUNG\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\NGUYEN PHUOC HUNG\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

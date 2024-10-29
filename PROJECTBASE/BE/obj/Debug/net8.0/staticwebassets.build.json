@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "NGPsueNBBghucKJHLuBiA7L9XCzBh+4YfmB+iMq5quI=",
+  "Source": "BE",
+  "BasePath": "_content/BE",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BE\\wwwroot",
+      "Source": "BE",
+      "ContentRoot": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\wwwroot\\",
+      "BasePath": "_content/BE",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\wwwroot\\Files\\no-image.png",
+      "SourceId": "BE",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\wwwroot\\",
+      "BasePath": "_content/BE",
+      "RelativePath": "Files/no-image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x8r6fw0eli",
+      "Integrity": "cT6+CnQMPQ4KmtndWgz8ouqK7F2kt8791xlqOOMkpN4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\no-image.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Files/no-image.png",
+      "AssetFile": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\wwwroot\\Files\\no-image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cT6+CnQMPQ4KmtndWgz8ouqK7F2kt8791xlqOOMkpN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Jul 2024 04:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cT6+CnQMPQ4KmtndWgz8ouqK7F2kt8791xlqOOMkpN4="
+        }
+      ]
+    },
+    {
+      "Route": "Files/no-image.x8r6fw0eli.png",
+      "AssetFile": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\wwwroot\\Files\\no-image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cT6+CnQMPQ4KmtndWgz8ouqK7F2kt8791xlqOOMkpN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 02 Jul 2024 04:31:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x8r6fw0eli"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/no-image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cT6+CnQMPQ4KmtndWgz8ouqK7F2kt8791xlqOOMkpN4="
+        }
+      ]
+    }
+  ]
+}

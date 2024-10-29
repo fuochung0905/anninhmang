@@ -1,133 +1,161 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\",
+  "WorkspaceRootPath": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\core\\entities\\dbcontent\\projectbasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|solutionrelative:core\\entities\\dbcontent\\projectbasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\controllers\\hethong\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\controllers\\hethong\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{850EA1BC-A0B8-48D9-BC20-FBE3ABB8103F}|CORE\\REPONSITORY\\REPONSITORY.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\core\\reponsitory\\hethong\\taikhoan\\taikhoanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{850EA1BC-A0B8-48D9-BC20-FBE3ABB8103F}|CORE\\REPONSITORY\\REPONSITORY.csproj|solutionrelative:core\\reponsitory\\hethong\\taikhoan\\taikhoanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|solutionrelative:be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|solutionrelative:be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\be\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|solutionrelative:be\\configservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\core\\entities\\dbcontent\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|solutionrelative:core\\entities\\dbcontent\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\core\\entities\\dbcontent\\dm_phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|solutionrelative:core\\entities\\dbcontent\\dm_phongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\core\\entities\\dbcontent\\dm_donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|solutionrelative:core\\entities\\dbcontent\\dm_donvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\core\\entities\\dbcontent\\dm_chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5331A39B-E8F3-4E01-B2FF-C5AFE554BD0E}|CORE\\ENTITIES\\ENTITIES.csproj|solutionrelative:core\\entities\\dbcontent\\dm_chucvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{850EA1BC-A0B8-48D9-BC20-FBE3ABB8103F}|CORE\\REPONSITORY\\REPONSITORY.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\core\\reponsitory\\hethong\\taikhoan\\taikhoanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{850EA1BC-A0B8-48D9-BC20-FBE3ABB8103F}|CORE\\REPONSITORY\\REPONSITORY.csproj|solutionrelative:core\\reponsitory\\hethong\\taikhoan\\taikhoanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\controllers\\hethong\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\controllers\\hethong\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\controllers\\basecontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\controllers\\basecontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\controllers\\basecontrolller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\fe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\fe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\fe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\be\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\be\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E669165A-8E52-4A88-941B-CABBB29E0457}|BE\\BE.csproj|solutionrelative:be\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\partialtemplates\\partialviewdiadanhfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\partialtemplates\\partialviewdiadanhfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\partialtemplates\\partialviewdiadanhfilter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\time.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\time.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\time.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\string.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\string.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\string.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\positivenumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\positivenumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\positivenumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\number.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\number.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\number.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\integer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\integer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\integer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\gridforeignkey.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\gridforeignkey.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\gridforeignkey.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\datetime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\datetime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\datetime.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\currency.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\currency.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\currency.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\date.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\country.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\editortemplates\\boolean.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\editortemplates\\boolean.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\editortemplates\\boolean.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\components\\uploadfileingrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\components\\uploadfileingrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\components\\uploadfileingrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\components\\uploadfilebasewithreftype_allowanonymous.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\components\\uploadfilebasewithreftype_allowanonymous.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\components\\uploadfilebasewithreftype_allowanonymous.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\components\\uploadfilebasewithreftype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\components\\uploadfilebasewithreftype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\components\\uploadfilebasewithreftype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\shared\\components\\uploadfilebase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\shared\\components\\uploadfilebase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\shared\\components\\uploadfilebase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\views\\home\\popupdocumnetreader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\views\\home\\popupdocumnetreader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\views\\home\\popupdocumnetreader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\projectbase_net8\\projectbase_net8\\projectbase\\fe\\constants\\sys_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|c:\\users\\nguyen phuoc hung\\daihoc\\chatbot\\projectbase\\fe\\constants\\sys_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87B74557-628B-4AAE-9792-22785D47FA9D}|FE\\FE.csproj|solutionrelative:fe\\constants\\sys_config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -138,8 +166,60 @@
       "DocumentGroups": [
         {
           "DockedHeight": 204,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PROJECTBASEContext.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\PROJECTBASEContext.cs",
+              "RelativeDocumentMoniker": "CORE\\ENTITIES\\DBContent\\PROJECTBASEContext.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\PROJECTBASEContext.cs",
+              "RelativeToolTip": "CORE\\ENTITIES\\DBContent\\PROJECTBASEContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:41:48.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\Log.cs",
+              "RelativeDocumentMoniker": "CORE\\ENTITIES\\DBContent\\Log.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\Log.cs",
+              "RelativeToolTip": "CORE\\ENTITIES\\DBContent\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:41:48.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DM_PHONGBAN.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\DM_PHONGBAN.cs",
+              "RelativeDocumentMoniker": "CORE\\ENTITIES\\DBContent\\DM_PHONGBAN.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\DM_PHONGBAN.cs",
+              "RelativeToolTip": "CORE\\ENTITIES\\DBContent\\DM_PHONGBAN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:41:47.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DM_DONVI.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\DM_DONVI.cs",
+              "RelativeDocumentMoniker": "CORE\\ENTITIES\\DBContent\\DM_DONVI.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\DM_DONVI.cs",
+              "RelativeToolTip": "CORE\\ENTITIES\\DBContent\\DM_DONVI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:40:42.57Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -154,63 +234,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeDocumentMoniker": "FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeToolTip": "FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T04:10:05.338Z",
+              "DocumentIndex": 7,
+              "Title": "DM_CHUCVU.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\DM_CHUCVU.cs",
+              "RelativeDocumentMoniker": "CORE\\ENTITIES\\DBContent\\DM_CHUCVU.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\ENTITIES\\DBContent\\DM_CHUCVU.cs",
+              "RelativeToolTip": "CORE\\ENTITIES\\DBContent\\DM_CHUCVU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:41:45.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\appsettings.json",
+              "RelativeDocumentMoniker": "BE\\appsettings.json",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\appsettings.json",
+              "RelativeToolTip": "BE\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T16:39:18.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Controllers\\HETHONG\\AccountController.cs",
-              "RelativeDocumentMoniker": "FE\\Controllers\\HETHONG\\AccountController.cs",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Controllers\\HETHONG\\AccountController.cs",
-              "RelativeToolTip": "FE\\Controllers\\HETHONG\\AccountController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwCIAAAAJAAAAAAAAAA==",
+              "Title": "ConfigService.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\ConfigService.cs",
+              "RelativeDocumentMoniker": "BE\\ConfigService.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\ConfigService.cs",
+              "RelativeToolTip": "BE\\ConfigService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:50:26.706Z",
+              "WhenOpened": "2024-10-29T16:39:15.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\Program.cs",
+              "RelativeDocumentMoniker": "BE\\Program.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\Program.cs",
+              "RelativeToolTip": "BE\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T19:10:56.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TAIKHOANService.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\REPONSITORY\\HETHONG\\TAIKHOAN\\TAIKHOANService.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\REPONSITORY\\HETHONG\\TAIKHOAN\\TAIKHOANService.cs",
               "RelativeDocumentMoniker": "CORE\\REPONSITORY\\HETHONG\\TAIKHOAN\\TAIKHOANService.cs",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\CORE\\REPONSITORY\\HETHONG\\TAIKHOAN\\TAIKHOANService.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\CORE\\REPONSITORY\\HETHONG\\TAIKHOAN\\TAIKHOANService.cs",
               "RelativeToolTip": "CORE\\REPONSITORY\\HETHONG\\TAIKHOAN\\TAIKHOANService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAcwEYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAtwBUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T04:04:37.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "FE\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T19:00:07.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T19:00:07.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FE\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Controllers\\HomeController.cs",
               "RelativeToolTip": "FE\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,24 +323,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T19:24:02.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T19:24:02.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "Integer.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Integer.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Integer.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\Integer.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Integer.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Integer.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\Integer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -243,24 +347,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "FE\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "FE\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T19:18:21.004Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Controllers\\HETHONG\\AccountController.cs",
+              "RelativeDocumentMoniker": "FE\\Controllers\\HETHONG\\AccountController.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Controllers\\HETHONG\\AccountController.cs",
+              "RelativeToolTip": "FE\\Controllers\\HETHONG\\AccountController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:50:26.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FE\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T19:18:21.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeDocumentMoniker": "FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "RelativeToolTip": "FE\\Views\\Shared\\Components\\Header\\Default.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T04:10:05.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "BaseControlller.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Controllers\\BaseControlller.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Controllers\\BaseControlller.cs",
               "RelativeDocumentMoniker": "FE\\Controllers\\BaseControlller.cs",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Controllers\\BaseControlller.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Controllers\\BaseControlller.cs",
               "RelativeToolTip": "FE\\Controllers\\BaseControlller.cs",
               "ViewState": "AgIAAH8AAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -268,11 +395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "Number.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Number.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Number.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\Number.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Number.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Number.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\Number.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -280,11 +407,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "PositiveNumber.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\PositiveNumber.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\PositiveNumber.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\PositiveNumber.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\PositiveNumber.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\PositiveNumber.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\PositiveNumber.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -292,24 +419,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\BE\\Program.cs",
-              "RelativeDocumentMoniker": "BE\\Program.cs",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\BE\\Program.cs",
-              "RelativeToolTip": "BE\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T19:10:56.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "FE.csproj",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\FE.csproj",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\FE.csproj",
               "RelativeDocumentMoniker": "FE\\FE.csproj",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\FE.csproj",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\FE.csproj",
               "RelativeToolTip": "FE\\FE.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -317,11 +431,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Program.cs",
               "RelativeDocumentMoniker": "FE\\Program.cs",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Program.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Program.cs",
               "RelativeToolTip": "FE\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,11 +443,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "FE\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -341,11 +455,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\appsettings.json",
               "RelativeDocumentMoniker": "FE\\appsettings.json",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\appsettings.json",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\appsettings.json",
               "RelativeToolTip": "FE\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -353,11 +467,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\BE\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\appsettings.Development.json",
               "RelativeDocumentMoniker": "BE\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\BE\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\BE\\appsettings.Development.json",
               "RelativeToolTip": "BE\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -365,11 +479,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "GridForeignKey.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\GridForeignKey.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\GridForeignKey.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\GridForeignKey.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\GridForeignKey.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\GridForeignKey.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\GridForeignKey.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -377,11 +491,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "DateTime.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\DateTime.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\DateTime.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\DateTime.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\DateTime.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\DateTime.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\DateTime.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -389,11 +503,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "String.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\String.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\String.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\String.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\String.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\String.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\String.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -401,11 +515,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "Time.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Time.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Time.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\Time.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Time.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Time.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\Time.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -413,11 +527,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "PartialViewDiaDanhFilter.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\PartialTemplates\\PartialViewDiaDanhFilter.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\PartialTemplates\\PartialViewDiaDanhFilter.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\PartialTemplates\\PartialViewDiaDanhFilter.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\PartialTemplates\\PartialViewDiaDanhFilter.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\PartialTemplates\\PartialViewDiaDanhFilter.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\PartialTemplates\\PartialViewDiaDanhFilter.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAowE0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -425,11 +539,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "Currency.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Currency.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Currency.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\Currency.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Currency.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Currency.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\Currency.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -437,11 +551,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "Date.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Date.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Date.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\Date.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Date.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Date.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\Date.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -449,11 +563,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "Country.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Country.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Country.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\Country.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Country.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Country.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\Country.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -461,11 +575,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "Boolean.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Boolean.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Boolean.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\EditorTemplates\\Boolean.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Boolean.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\EditorTemplates\\Boolean.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\EditorTemplates\\Boolean.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -473,11 +587,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "UploadFileInGrid.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileInGrid.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileInGrid.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\Components\\UploadFileInGrid.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileInGrid.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileInGrid.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\Components\\UploadFileInGrid.cshtml",
               "ViewState": "AgIAAGsAAAAAAAAAAAAYwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -485,11 +599,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "UploadFileBaseWithRefType_AllowAnonymous.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType_AllowAnonymous.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType_AllowAnonymous.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType_AllowAnonymous.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType_AllowAnonymous.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType_AllowAnonymous.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType_AllowAnonymous.cshtml",
               "ViewState": "AgIAAKcAAAAAAAAAAAAYwLwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -497,11 +611,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "UploadFileBaseWithRefType.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\Components\\UploadFileBaseWithRefType.cshtml",
               "ViewState": "AgIAAKcAAAAAAAAAAAAYwLwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -509,11 +623,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "UploadFileBase.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBase.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBase.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Shared\\Components\\UploadFileBase.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBase.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Shared\\Components\\UploadFileBase.cshtml",
               "RelativeToolTip": "FE\\Views\\Shared\\Components\\UploadFileBase.cshtml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAYwHAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -521,11 +635,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "PopupDocumnetReader.cshtml",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Home\\PopupDocumnetReader.cshtml",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Home\\PopupDocumnetReader.cshtml",
               "RelativeDocumentMoniker": "FE\\Views\\Home\\PopupDocumnetReader.cshtml",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Views\\Home\\PopupDocumnetReader.cshtml",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Views\\Home\\PopupDocumnetReader.cshtml",
               "RelativeToolTip": "FE\\Views\\Home\\PopupDocumnetReader.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -533,11 +647,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "SYS_CONFIG.cs",
-              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Constants\\SYS_CONFIG.cs",
+              "DocumentMoniker": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Constants\\SYS_CONFIG.cs",
               "RelativeDocumentMoniker": "FE\\Constants\\SYS_CONFIG.cs",
-              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\projectbase_net8\\projectbase_net8\\PROJECTBASE\\FE\\Constants\\SYS_CONFIG.cs",
+              "ToolTip": "C:\\Users\\NGUYEN PHUOC HUNG\\DAIHOC\\chatbot\\PROJECTBASE\\FE\\Constants\\SYS_CONFIG.cs",
               "RelativeToolTip": "FE\\Constants\\SYS_CONFIG.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
